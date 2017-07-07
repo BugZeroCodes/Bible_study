@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Chapter:</strong>
+  <%= @bible_verse.chapter %>
+</p>
+
+<p>
+  <strong>Verse number:</strong>
+  <%= @bible_verse.verse_number %>
+</p>
+
+<p>
+  <strong>Book:</strong>
+  <%= @bible_verse.book %>
+</p>
+
+<p>
+  <strong>Verse text:</strong>
+  <%= @bible_verse.verse_text %>
+</p>
+
+<%= link_to 'Edit', edit_bible_verse_path(@bible_verse) %> |
+<%= link_to 'Back', bible_verses_path %>

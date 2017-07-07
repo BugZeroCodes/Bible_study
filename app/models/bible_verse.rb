@@ -1,0 +1,2 @@
+class BibleVerse < ApplicationRecord
+end

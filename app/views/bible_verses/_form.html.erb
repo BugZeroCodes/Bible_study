@@ -1,0 +1,37 @@
+<%= form_with(model: bible_verse, local: true) do |form| %>
+  <% if bible_verse.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(bible_verse.errors.count, "error") %> prohibited this bible_verse from being saved:</h2>
+
+      <ul>
+      <% bible_verse.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :chapter %>
+    <%= form.number_field :chapter, id: :bible_verse_chapter %>
+  </div>
+
+  <div class="field">
+    <%= form.label :verse_number %>
+    <%= form.number_field :verse_number, id: :bible_verse_verse_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :book %>
+    <%= form.text_field :book, id: :bible_verse_book %>
+  </div>
+
+  <div class="field">
+    <%= form.label :verse_text %>
+    <%= form.text_area :verse_text, id: :bible_verse_verse_text %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
