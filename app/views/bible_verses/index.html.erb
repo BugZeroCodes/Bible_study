@@ -25,7 +25,6 @@
   }
 </style>
 <h1>Bible Verses</h1>
-
 <table>
   <thead>
     <tr>
@@ -44,9 +43,9 @@
         <td><%= bible_verse.verse_number %></td>
         <td><%= bible_verse.book %></td>
         <td><%= bible_verse.verse_text %></td>
-        <td><%= link_to 'Show', bible_verse %></td>
-        <td><%= link_to 'Edit', edit_bible_verse_path(bible_verse) %></td>
-        <td><%= link_to 'Destroy', bible_verse, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', bible_verse, class: 'btn btn-info' %></td>
+        <td><%= link_to 'Edit', edit_bible_verse_path(bible_verse), class: 'btn btn-warning' %></td>
+        <td><%= link_to 'Destroy', bible_verse, method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -54,4 +53,4 @@
 
 <br>
 
-<%= link_to 'New Bible Verse', new_bible_verse_path %>
+<%= link_to 'New Bible Verse', new_bible_verse_path, class: 'btn btn-primary' %>
