@@ -10,13 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170707171941) do
+ActiveRecord::Schema.define(version: 20170724161915) do
 
   create_table "bible_verses", force: :cascade do |t|
     t.integer "chapter"
     t.integer "verse_number"
     t.string "book"
     t.text "verse_text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "question_id"
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.string "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -34,6 +41,8 @@ ActiveRecord::Schema.define(version: 20170707171941) do
     t.string "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "avatar"
+    t.string "username"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

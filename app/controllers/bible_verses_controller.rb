@@ -4,7 +4,7 @@ class BibleVersesController < ApplicationController
   # GET /bible_verses
   # GET /bible_verses.json
   def index
-    @bible_verses = BibleVerse.all
+    @bible_verses = BibleVerse.all.page(params[:page])
   end
 
   # GET /bible_verses/1
@@ -56,7 +56,7 @@ class BibleVersesController < ApplicationController
   def destroy
     @bible_verse.destroy
     respond_to do |format|
-      format.html { redirect_to bible_verses_url, notice: 'Bible verse was successfully destroyed.' }
+      format.html { redirect_to bible_verses_url, notice: 'Bible verse was successfully deleted.' }
       format.json { head :no_content }
     end
   end
@@ -69,6 +69,6 @@ class BibleVersesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def bible_verse_params
-      params.require(:bible_verse).permit(:chapter, :verse_number, :book, :verse_text)
+      params.require(:bible_verse).permit(:chapter, :verse_number, :book, :verse_text, :question)
     end
 end
