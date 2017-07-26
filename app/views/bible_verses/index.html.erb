@@ -17,6 +17,7 @@
 <table class='table' id='resizable'>
   <thead>
     <tr>
+      <th>Question</th>
       <th>Chapter</th>
       <th>Verse number</th>
       <th>Book</th>
@@ -28,13 +29,16 @@
   <tbody>
     <% @bible_verses.each do |bible_verse| %>
       <tr>
+        <td><%= bible_verse.question %></td>
         <td><%= bible_verse.chapter %></td>
         <td><%= bible_verse.verse_number %></td>
         <td><%= bible_verse.book %></td>
         <% if bible_verse.verse_text.length >= 100 %>
+        <% unless bible_verse.verse_text.include? '...' %>
           <td><%= bible_verse.verse_text[0..50] + '...' %></td>
         <% else %>
           <td><%= bible_verse.verse_text %></td>
+          <% end %>
         <% end %>
         <td><%= link_to 'Show', bible_verse, class: 'btn btn-success' %></td>
         <td><%= link_to 'Edit', edit_bible_verse_path(bible_verse), class: 'btn btn-warning' %></td>

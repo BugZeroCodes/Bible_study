@@ -165,3 +165,203 @@ BibleVerse.create([{book: "Revelation",
                                         chapter: 1,
                                         verse_number: '8a',
                                         verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord.'}])
+                                        BibleVerse.create([{book: '2 Peter',
+                                                            chapter: 1,
+                                                            verse_number: 21,
+                                                            verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were mover by the Holy Ghost.'}])
+                                        BibleVerse.create([{book: 'Psalm',
+                                                            chapter: 119,
+                                                            verse_number: 160,
+                                                            verse_text: 'Thy word is true from the beginning: and every one of thy righteous judgments endureth for ever.'}])
+                                        BibleVerse.create([{book: 'Ecclesiastes',
+                                                            chapter: 12,
+                                                            verse_number: '13b',
+                                                            verse_text: 'Fear God, and keep his commandments: for this is the whole duty of man.'}])
+                                        BibleVerse.create([{book: 'Matthew',
+                                                            chapter: 5,
+                                                            verse_number: '18b',
+                                                            verse_text: 'Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.'}])
+                                        BibleVerse.create([{book: '2 Timothy',
+                                                            chapter: 3,
+                                                            verse_number: '15b',
+                                                            verse_text: 'The holy scriptures . . . are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
+                                        BibleVerse.create([{book: 'Romans',
+                                                            chapter: 10,
+                                                            verse_number: 17,
+                                                            verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])
+                                        BibleVerse.create([{book: '2 Timothy',
+                                                            chapter: 3,
+                                                            verse_number: 16,
+                                                            verse_text: 'All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.'}])
+                                        BibleVerse.create([{book: 'Psalm',
+                                                            chapter: 119,
+                                                            verse_number: 97,
+                                                            verse_text: 'O how love I thy law! it is my meditation all the day.'}])
+                                        BibleVerse.create([{book: 'Job',
+                                                            chapter: 40,
+                                                            verse_number: 9,
+                                                            verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
+                                        BibleVerse.create([{book: "Revelation",
+                                                            chapter: 1,
+                                                            verse_number: '8a',
+                                                            verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord.'}])
+                                                            BibleVerse.create([{book: '2 Peter',
+                                                                                chapter: 1,
+                                                                                verse_number: 21,
+                                                                                verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were mover by the Holy Ghost.'}])
+                                                            BibleVerse.create([{book: 'Psalm',
+                                                                                chapter: 119,
+                                                                                verse_number: 160,
+                                                                                verse_text: 'Thy word is true from the beginning: and every one of thy righteous judgments endureth for ever.'}])
+                                                            BibleVerse.create([{book: 'Ecclesiastes',
+                                                                                chapter: 12,
+                                                                                verse_number: '13b',
+                                                                                verse_text: 'Fear God, and keep his commandments: for this is the whole duty of man.'}])
+                                                            BibleVerse.create([{book: 'Matthew',
+                                                                                chapter: 5,
+                                                                                verse_number: '18b',
+                                                                                verse_text: 'Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.'}])
+                                                            BibleVerse.create([{book: '2 Timothy',
+                                                                                chapter: 3,
+                                                                                verse_number: '15b',
+                                                                                verse_text: 'The holy scriptures . . . are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
+                                                            BibleVerse.create([{book: 'Romans',
+                                                                                chapter: 10,
+                                                                                verse_number: 17,
+                                                                                verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])
+                                                            BibleVerse.create([{book: '2 Timothy',
+                                                                                chapter: 3,
+                                                                                verse_number: 16,
+                                                                                verse_text: 'All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.'}])
+                                                            BibleVerse.create([{book: 'Psalm',
+                                                                                chapter: 119,
+                                                                                verse_number: 97,
+                                                                                verse_text: 'O how love I thy law! it is my meditation all the day.'}])
+                                                            BibleVerse.create([{book: 'Job',
+                                                                                chapter: 40,
+                                                                                verse_number: 9,
+                                                                                verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
+                                                            BibleVerse.create([{book: "Revelation",
+                                                                                chapter: 1,
+                                                                                verse_number: '8a',
+                                                                                verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord.'}])
+                                                                                BibleVerse.create([{book: '2 Peter',
+                                                                                                    chapter: 1,
+                                                                                                    verse_number: 21,
+                                                                                                    verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were mover by the Holy Ghost.'}])
+                                                                                BibleVerse.create([{book: 'Psalm',
+                                                                                                    chapter: 119,
+                                                                                                    verse_number: 160,
+                                                                                                    verse_text: 'Thy word is true from the beginning: and every one of thy righteous judgments endureth for ever.'}])
+                                                                                BibleVerse.create([{book: 'Ecclesiastes',
+                                                                                                    chapter: 12,
+                                                                                                    verse_number: '13b',
+                                                                                                    verse_text: 'Fear God, and keep his commandments: for this is the whole duty of man.'}])
+                                                                                BibleVerse.create([{book: 'Matthew',
+                                                                                                    chapter: 5,
+                                                                                                    verse_number: '18b',
+                                                                                                    verse_text: 'Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.'}])
+                                                                                BibleVerse.create([{book: '2 Timothy',
+                                                                                                    chapter: 3,
+                                                                                                    verse_number: '15b',
+                                                                                                    verse_text: 'The holy scriptures . . . are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
+                                                                                BibleVerse.create([{book: 'Romans',
+                                                                                                    chapter: 10,
+                                                                                                    verse_number: 17,
+                                                                                                    verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])
+                                                                                BibleVerse.create([{book: '2 Timothy',
+                                                                                                    chapter: 3,
+                                                                                                    verse_number: 16,
+                                                                                                    verse_text: 'All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.'}])
+                                                                                BibleVerse.create([{book: 'Psalm',
+                                                                                                    chapter: 119,
+                                                                                                    verse_number: 97,
+                                                                                                    verse_text: 'O how love I thy law! it is my meditation all the day.'}])
+                                                                                BibleVerse.create([{book: 'Job',
+                                                                                                    chapter: 40,
+                                                                                                    verse_number: 9,
+                                                                                                    verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
+                                                                                BibleVerse.create([{book: "Revelation",
+                                                                                                    chapter: 1,
+                                                                                                    verse_number: '8a',
+                                                                                                    verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord.'}])
+                                                                                                    BibleVerse.create([{book: '2 Peter',
+                                                                                                                        chapter: 1,
+                                                                                                                        verse_number: 21,
+                                                                                                                        verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were mover by the Holy Ghost.'}])
+                                                                                                    BibleVerse.create([{book: 'Psalm',
+                                                                                                                        chapter: 119,
+                                                                                                                        verse_number: 160,
+                                                                                                                        verse_text: 'Thy word is true from the beginning: and every one of thy righteous judgments endureth for ever.'}])
+                                                                                                    BibleVerse.create([{book: 'Ecclesiastes',
+                                                                                                                        chapter: 12,
+                                                                                                                        verse_number: '13b',
+                                                                                                                        verse_text: 'Fear God, and keep his commandments: for this is the whole duty of man.'}])
+                                                                                                    BibleVerse.create([{book: 'Matthew',
+                                                                                                                        chapter: 5,
+                                                                                                                        verse_number: '18b',
+                                                                                                                        verse_text: 'Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.'}])
+                                                                                                    BibleVerse.create([{book: '2 Timothy',
+                                                                                                                        chapter: 3,
+                                                                                                                        verse_number: '15b',
+                                                                                                                        verse_text: 'The holy scriptures . . . are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
+                                                                                                    BibleVerse.create([{book: 'Romans',
+                                                                                                                        chapter: 10,
+                                                                                                                        verse_number: 17,
+                                                                                                                        verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])
+                                                                                                    BibleVerse.create([{book: '2 Timothy',
+                                                                                                                        chapter: 3,
+                                                                                                                        verse_number: 16,
+                                                                                                                        verse_text: 'All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.'}])
+                                                                                                    BibleVerse.create([{book: 'Psalm',
+                                                                                                                        chapter: 119,
+                                                                                                                        verse_number: 97,
+                                                                                                                        verse_text: 'O how love I thy law! it is my meditation all the day.'}])
+                                                                                                    BibleVerse.create([{book: 'Job',
+                                                                                                                        chapter: 40,
+                                                                                                                        verse_number: 9,
+                                                                                                                        verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
+                                                                                                    BibleVerse.create([{book: "Revelation",
+                                                                                                                        chapter: 1,
+                                                                                                                        verse_number: '8a',
+                                                                                                                        verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord.'}])
+                                                                                                                        BibleVerse.create([{book: '2 Peter',
+                                                                                                                                            chapter: 1,
+                                                                                                                                            verse_number: 21,
+                                                                                                                                            verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were mover by the Holy Ghost.'}])
+                                                                                                                        BibleVerse.create([{book: 'Psalm',
+                                                                                                                                            chapter: 119,
+                                                                                                                                            verse_number: 160,
+                                                                                                                                            verse_text: 'Thy word is true from the beginning: and every one of thy righteous judgments endureth for ever.'}])
+                                                                                                                        BibleVerse.create([{book: 'Ecclesiastes',
+                                                                                                                                            chapter: 12,
+                                                                                                                                            verse_number: '13b',
+                                                                                                                                            verse_text: 'Fear God, and keep his commandments: for this is the whole duty of man.'}])
+                                                                                                                        BibleVerse.create([{book: 'Matthew',
+                                                                                                                                            chapter: 5,
+                                                                                                                                            verse_number: '18b',
+                                                                                                                                            verse_text: 'Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.'}])
+                                                                                                                        BibleVerse.create([{book: '2 Timothy',
+                                                                                                                                            chapter: 3,
+                                                                                                                                            verse_number: '15b',
+                                                                                                                                            verse_text: 'The holy scriptures . . . are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
+                                                                                                                        BibleVerse.create([{book: 'Romans',
+                                                                                                                                            chapter: 10,
+                                                                                                                                            verse_number: 17,
+                                                                                                                                            verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])
+                                                                                                                        BibleVerse.create([{book: '2 Timothy',
+                                                                                                                                            chapter: 3,
+                                                                                                                                            verse_number: 16,
+                                                                                                                                            verse_text: 'All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.'}])
+                                                                                                                        BibleVerse.create([{book: 'Psalm',
+                                                                                                                                            chapter: 119,
+                                                                                                                                            verse_number: 97,
+                                                                                                                                            verse_text: 'O how love I thy law! it is my meditation all the day.'}])
+                                                                                                                        BibleVerse.create([{book: 'Job',
+                                                                                                                                            chapter: 40,
+                                                                                                                                            verse_number: 9,
+                                                                                                                                            verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
+                                                                                                                        BibleVerse.create([{book: "Revelation",
+                                                                                                                                            chapter: 1,
+                                                                                                                                            verse_number: '8a',
+                                                                                                                                            verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord.'}])
