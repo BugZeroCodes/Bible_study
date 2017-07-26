@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 20170724161915) do
 
   create_table "bible_verses", force: :cascade do |t|
+    t.string "question"
     t.integer "chapter"
     t.integer "verse_number"
     t.string "book"

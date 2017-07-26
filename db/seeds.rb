@@ -5,7 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-BibleVerse.create([{book: '1st Thessalonians',
+BibleVerse.create!([{question: Question.new(text: 'Is this a question?'),
+                    book: '1st Thessalonians',
                     chapter: 2,
                     verse_number: '13b',
                     verse_text: 'When ye received the word of God which ye heard of us,ye received it not as the word of men, but as it is in truth,the word of God which effectually worketh also in you that believe...'}])
