@@ -29,7 +29,7 @@
   <tbody>
     <% @bible_verses.each do |bible_verse| %>
       <tr>
-        <td><%= bible_verse.question %></td>
+        <td><%= bible_verse.question.text %></td>
         <td><%= bible_verse.chapter %></td>
         <td><%= bible_verse.verse_number %></td>
         <td><%= bible_verse.book %></td>

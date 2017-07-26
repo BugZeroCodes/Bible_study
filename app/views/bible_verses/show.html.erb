@@ -1,31 +1,26 @@
-<p>
-  <strong>Question:</strong>
-  <%= @bible_verse.question %>
-</p>
+<label><input type='checkbox' name='hint' id='hints' />Show hint</label>
+<div class='special2' style='background-color: lightgray; border: 1px solid black; border-radius: 5px;'>
+  <h1>
+    <strong>Question:</strong>
+    <p>
+    <%= @bible_verse.question.text %>
+  </p></h1>
+</div>
+<div class='well special'>
+  <p>
+    <strong>Chapter:</strong>
+    <%= @bible_verse.chapter %>
+  </p>
 
-<p>
-  <strong>Chapter:</strong>
-  <%= @bible_verse.chapter %>
-</p>
+  <p>
+    <strong>Verse number:</strong>
+    <%= @bible_verse.verse_number %>
+  </p>
 
-<p>
-  <strong>Verse number:</strong>
-  <%= @bible_verse.verse_number %>
-</p>
-
-<p>
-  <strong>Book:</strong>
-  <%= @bible_verse.book %>
-</p>
-
-<p>
-  <strong>Verse text:</strong>
-  <% if @bible_verse.verse_text.length >= 150 %>
-    <%= @bible_verse.verse_text[0..50] + '...' %>
-  <% else %>
-    <%= @bible_verse.verse_text %>
-  <% end %>
-</p>
-
+  <p>
+    <strong>Book:</strong>
+    <%= @bible_verse.book %>
+  </p>
+</div>
 <%= link_to 'Edit', edit_bible_verse_path(@bible_verse), class: 'btn btn-warning' %> |
 <%= link_to 'Back', bible_verses_path, class: 'btn btn-success' %>
