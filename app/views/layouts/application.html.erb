@@ -111,6 +111,12 @@
     color: aqua;
     text-decoration: underline;
   }
+  textarea {
+    resize: vertical;
+  }
+  code {
+    font-family: monospace;
+  }
   </style>
 </head>
 
@@ -136,6 +142,7 @@
   </div>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script>
+  var isChecked = $('#hints').is(':checked');
   $(function() {
     $('#draggable').draggable();
   });
@@ -151,6 +158,15 @@
       $('.special').show(2000);
     } else {
       $('.special').hide(2000);
+    }
+  });
+  $('label.bb').hide();
+  $('#help').click(function() {
+    if ($('#help').is(':checked')) {
+      $('label.bb').show(400);
+    } else {
+      $('label.bb, .special').hide(400)
+      isChecked = false;
     }
   })
   </script>

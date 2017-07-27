@@ -52,6 +52,7 @@
     <h3 style='text-align: center; vertical-align: center;'>All Bible Verses</h3>
     <ol>
       <% @bible_verses.each do |verse| %>
+      <li><%= verse.question.text %></li><br /><br />
       <li><%= verse.book %> <%= verse.chapter %>:<%= verse.verse_number %></li><br />
       <p><%= verse.verse_text %></p>
       <% end %>
@@ -63,4 +64,5 @@
 <br>
 <%= paginate @bible_verses %>
 
-<%= link_to 'New Bible Verse', new_bible_verse_path, class: 'btn btn-primary' %>
+<p>In the command line, please run <code>rails db:seed</code> to make new bible verses.</p>
+&copy; Copyright 2017 All Rights Reserved.
