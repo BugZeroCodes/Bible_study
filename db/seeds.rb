@@ -289,7 +289,7 @@ BibleVerse.create([{question: Question.new(text: 'What does God\'s creative hand
                     chapter: 1,
                     verse_number: '20a',
                     verse_text: 'For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made.'}])
-BibleVerse.create([{question: Question.new(text: 'Did God create all the invisible things?',
+BibleVerse.create([{question: Question.new(text: 'Did God create all the invisible things?'),
                     book: 'Colossians',
                     chapter: 1,
                     verse_number: '16a',
