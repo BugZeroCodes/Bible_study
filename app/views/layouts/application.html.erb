@@ -145,6 +145,7 @@
   var isChecked = $('#hints').is(':checked');
   $(function() {
     $('#draggable').draggable();
+    $('*').disableSelection();
   });
   $(function() {
     $('#resizable').resizable({

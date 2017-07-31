@@ -1,5 +1,5 @@
 class BibleVersesController < ApplicationController
-  before_action :set_bible_verse, only: [:show, :edit, :update, :destroy]
+  before_action :set_bible_verse, only: [:show, :edit, :update, :destroy, :grade]
 
   # GET /bible_verses
   # GET /bible_verses.json
@@ -61,6 +61,11 @@ class BibleVersesController < ApplicationController
     end
   end
 
+  def grade
+    user_input = params[:verse]
+    correct_verse = @bible_verse.verse_text
+    @correct = String::Similarity.cosine user_input, correct_verse
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_bible_verse

@@ -22,7 +22,7 @@
       <th>Verse number</th>
       <th>Book</th>
       <th>Verse text</th>
-      <th colspan="3">Configure</th>
+      <th></th>
     </tr>
   </thead>
 
@@ -41,8 +41,6 @@
           <% end %>
         <% end %>
         <td><%= link_to 'Show', bible_verse, class: 'btn btn-success' %></td>
-        <td><%= link_to 'Edit', edit_bible_verse_path(bible_verse), class: 'btn btn-warning' %></td>
-        <td><%= link_to 'Delete', bible_verse, method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -64,5 +62,4 @@
 <br>
 <%= paginate @bible_verses %>
 
-<p>In the command line, please run <code>rails db:seed</code> to make new bible verses.</p>
-&copy; Copyright 2017 All Rights Reserved.
+<p>If you are the owner of this application, please run <code>rails db:seed</code> to make new bible verses.</p>
