@@ -33,13 +33,7 @@
         <td><%= bible_verse.chapter %></td>
         <td><%= bible_verse.verse_number %></td>
         <td><%= bible_verse.book %></td>
-        <% if bible_verse.verse_text.length >= 100 %>
-        <% unless bible_verse.verse_text.include? '...' %>
-          <td><%= bible_verse.verse_text[0..50] + '...' %></td>
-        <% else %>
-          <td><%= bible_verse.verse_text %></td>
-          <% end %>
-        <% end %>
+        <td><%= bible_verse.verse_text %></td>
         <td><%= link_to 'Show', bible_verse, class: 'btn btn-success' %></td>
       </tr>
     <% end %>
@@ -59,7 +53,7 @@
   </div>
 <% end %>
 
-<br>
+<br />
 <%= paginate @bible_verses %>
 
 <p>If you are the owner of this application, please run <code>rails db:seed</code> to make new bible verses.</p>

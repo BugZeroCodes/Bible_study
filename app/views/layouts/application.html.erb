@@ -169,7 +169,13 @@
       $('label.bb, .special').hide(400)
       isChecked = false;
     }
-  })
+  });
+  $(document).ready(function() {
+    $('.hidden').hide();
+    $('[name="user[password]"]').on('blur', function() {
+      $('.hidden').show(100);
+    });
+  });
   </script>
 </body>
 </html>

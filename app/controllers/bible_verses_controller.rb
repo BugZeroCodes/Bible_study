@@ -1,3 +1,4 @@
+require 'string/similarity'
 class BibleVersesController < ApplicationController
   before_action :set_bible_verse, only: [:show, :edit, :update, :destroy, :grade]
 
