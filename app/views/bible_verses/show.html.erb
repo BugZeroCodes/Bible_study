@@ -23,8 +23,8 @@
     </p>
   </div>
   <%= form_with url: grade_path(@bible_verse) do |form| %>
-    <label for="">Guess:</label>
-    <%= form.text_area :verse, class: 'form-control', autocomplete: 'off' %>
+    <label for="">Guess:
+    <%= form.text_area :verse, class: 'form-control', autocomplete: 'off' %></label>
     <%= form.submit 'Make your guess!' %>
   <% end %>
   <label><input type='checkbox' id='help' class='navbar-brand' />I need a hint</label>
