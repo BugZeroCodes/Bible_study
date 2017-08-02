@@ -1,10 +1,9 @@
 <label class='bb'><input type='checkbox' name='hint' id='hints' class='navbar-brand' />Show hint</label>
 <div class='special2' style='background-color: lightgray; border: 1px solid black; border-radius: 5px;'>
-  <h1>
-    <strong>Question:</strong>
-    <p>
-      <%= @bible_verse.question.text %>
-    </p></h1>
+  <h1><strong>Question:</strong></h1>
+  <p>
+    <%= @bible_verse.question.text %>
+  </p>
   </div>
   <div class='well special'>
     <p>
@@ -23,15 +22,16 @@
     </p>
   </div>
   <%= form_with url: grade_path(@bible_verse) do |form| %>
-    <label for="">Guess:
+    <label for="guess">Guess:
     <%= form.text_area :verse, class: 'form-control', autocomplete: 'off' %></label>
     <%= form.submit 'Make your guess!' %>
   <% end %>
-  <label><input type='checkbox' id='help' class='navbar-brand' />I need a hint</label>
+  <label for="hints"><input type='checkbox' id='help' class='navbar-brand' />I need a hint</label>
 
 <br /><br />
+<div id="score-answer" class='well' style='display: none;'></div>
   <%= link_to 'Back', bible_verses_path, class: 'btn btn-success' %>
-<style media="screen">
+<style type="text/css">
   label {
     display: inline;
   }

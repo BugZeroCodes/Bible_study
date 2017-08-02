@@ -63,8 +63,8 @@ class BibleVersesController < ApplicationController
   end
 
   def grade
-    user_input = params[:verse]
-    correct_verse = @bible_verse.verse_text
+    user_input = params[:verse].downcase.gsub(/\W+/, ' ')
+    correct_verse = @bible_verse.verse_text.downcase.gsub(/\W+/, ' ')
     @correct = String::Similarity.cosine user_input, correct_verse
   end
   private
