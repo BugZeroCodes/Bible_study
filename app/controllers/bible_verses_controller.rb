@@ -11,6 +11,7 @@ class BibleVersesController < ApplicationController
   # GET /bible_verses/1
   # GET /bible_verses/1.json
   def show
+    @answers = Answer.where(user_id: current_user.id, bible_verse_id: @bible_verse.id)
   end
 
   # GET /bible_verses/new
@@ -66,6 +67,7 @@ class BibleVersesController < ApplicationController
     user_input = params[:verse].downcase.gsub(/\W+/, ' ')
     correct_verse = @bible_verse.verse_text.downcase.gsub(/\W+/, ' ')
     @correct = String::Similarity.cosine user_input, correct_verse
+    @answer = Answer.create(user_id: current_user.id, bible_verse_id: @bible_verse.id, text: user_input.capitalize, score: @correct)
   end
   private
     # Use callbacks to share common setup or constraints between actions.
