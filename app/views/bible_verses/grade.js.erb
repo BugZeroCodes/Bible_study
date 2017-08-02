@@ -3,7 +3,6 @@ $('#score-answer').show(1000)
 <% 3.times do %>
   <% if @correct >= 0.95 %>
     $('#score-answer').html('Yaaaaaaay!!!')
-    $('#score-answer').append('<%= link_to "Next" %>')
   <% else %>
     $('#score-answer').html('<a href>Try again.</a>')
   <% end %>
