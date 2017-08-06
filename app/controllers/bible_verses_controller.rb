@@ -12,6 +12,7 @@ class BibleVersesController < ApplicationController
   # GET /bible_verses/1.json
   def show
     @answers = Answer.where(user_id: current_user.id, bible_verse_id: @bible_verse.id)
+    @maximum_score = @answers.pluck(:score).max || 0
   end
 
   # GET /bible_verses/new

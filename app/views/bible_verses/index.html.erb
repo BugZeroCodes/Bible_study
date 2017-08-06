@@ -6,6 +6,7 @@
     color: aqua;
   }
   th {
+    color: blue;
     border: 5px inset red;
   }
   td, th {
@@ -15,15 +16,18 @@
   a {
     box-shadow: inset -1px 2px 20px 4px black;
   }
+  body {
+    background-image: url("http://www.aimlowerjournal.com/wp-content/uploads/2015/03/bigstock-little-boy-studying-the-script-80780252-752x440.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 </style>
 <h1>Bible Verses</h1>
 <table class='table' id='resizable'>
   <thead>
     <tr>
       <th>Question</th>
-      <th>Chapter</th>
-      <th>Verse number</th>
-      <th>Book</th>
+      <th>Verse</th>
       <th>Verse text</th>
       <th></th>
     </tr>
@@ -33,9 +37,7 @@
     <% @bible_verses.each do |bible_verse| %>
       <tr>
         <td><%= bible_verse.question.text %></td>
-        <td><%= bible_verse.chapter %></td>
-        <td><%= bible_verse.verse_number %></td>
-        <td><%= bible_verse.book %></td>
+        <td><%= bible_verse.pretty_printed %></td>
         <td><%= bible_verse.verse_text %></td>
         <td><%= link_to 'Show', bible_verse, class: 'btn btn-success' %></td>
       </tr>
@@ -48,7 +50,7 @@
     <ol>
       <% @bible_verses.each do |verse| %>
       <li><%= verse.question.text %></li><br /><br />
-      <li><%= verse.book %> <%= verse.chapter %>:<%= verse.verse_number %></li><br />
+      <li><%= verse.pretty_printed %></li><br />
       <p><%= verse.verse_text %></p>
       <% end %>
     </ol>
