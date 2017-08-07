@@ -1,10 +1,4 @@
- # This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+# Detectives
 
 # God's Word - The Bible
 BibleVerse.create!([{question: Question.new(text: 'What is the Bible?'),
@@ -37,83 +31,11 @@ BibleVerse.create!([{question: Question.new(text: 'Is this a question?'),
                     chapter: 145,
                     verse_number: '9a',
                     verse_text: 'The LORD is gracious, and full of compassion, slow to anger, and of great mercy.' + ' The LORD is good to all.'}])
-BibleVerse.create!([{book: 'Psalm',
-                    chapter: 145,
-                    verse_number: 17,
-                    verse_text: 'The LORD is righteous in all his ways, and holy in all his works.'}])
-BibleVerse.create!([{book: 'Isaiah',
-                    chapter: 6,
-                    verse_number: '3b',
-                    verse_text: 'Holy, holy, holy, is the LORD of hosts: the whole earth is full of his glory.'}])
-BibleVerse.create!([{book: 'Psalm',
-                    chapter: 84,
-                    verse_number: '11b',
-                    verse_text: 'No good thing will he withhold from them that walk uprightly.'}])
-BibleVerse.create!([{book: 'Psalm',
-                    chapter: 34,
-                    verse_number: '8a',
-                    verse_text: 'O taste and see that the LORD is good.'}])
-BibleVerse.create!([{book: 'Exodus',
-                    chapter: 15,
-                    verse_number: 11,
-                    verse_text: 'Who is like unto thee, O LORD, among the gods? who is like thee, glorious in holiness, fearful in praises, doing wonders?'}])
-BibleVerse.create!([{book: '1 Timothy',
-                    chapter: 1,
-                    verse_number: 17,
-                    verse_text: 'Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.'}])
-BibleVerse.create!([{book: 'Jeremiah',
-                    chapter: 23,
-                    verse_number: '24b',
-                    verse_text: 'Do not I fill heaven and earth? saith the LORD.'}])
-BibleVerse.create!([{book: '1 John',
-                    chapter: 3,
-                    verse_number: '20b',
-                    verse_text: 'God is greater than our heart, and knoweth all things.'}])
-BibleVerse.create!([{book: 'Jeremiah',
-                    chapter: 32,
-                    verse_number: 17,
-                    verse_text: 'Ah Lord GOD! behold, thou hast made the heaven and the earth by thy great power and stretched out arm, and there is nothing too hard for thee.'}])
-BibleVerse.create!([{book: '2 Peter',
-                    chapter: 1,
-                    verse_number: 21,
-                    verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were mover by the Holy Ghost.'}])
-BibleVerse.create!([{book: 'Psalm',
-                    chapter: 119,
-                    verse_number: 160,
-                    verse_text: 'Thy word is true from the beginning: and every one of thy righteous judgments endureth for ever.'}])
-BibleVerse.create!([{book: 'Ecclesiastes',
-                    chapter: 12,
-                    verse_number: '13b',
-                    verse_text: 'Fear God, and keep his commandments: for this is the whole duty of man.'}])
-BibleVerse.create!([{book: 'Matthew',
-                    chapter: 5,
-                    verse_number: '18b',
-                    verse_text: 'Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.'}])
-BibleVerse.create!([{book: '2 Timothy',
-                    chapter: 3,
-                    verse_number: '15b',
-                    verse_text: 'The holy scriptures . . . are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
-BibleVerse.create!([{book: 'Romans',
-                    chapter: 10,
-                    verse_number: 17,
-                    verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])
-BibleVerse.create!([{book: '2 Timothy',
-                    chapter: 3,
-                    verse_number: 16,
-                    verse_text: 'All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.'}])
 BibleVerse.create!([{question: Question.new(text: 'Does God reveal in his word that He is greater than us?'),
                     book: 'Isaiah',
                     chapter: 55,
                     verse_number: '9a',
                     verse_text: 'For as the heavens are higher than the earth, so are my ways higher than your ways.'}])
-BibleVerse.create!([{book: 'Psalm',
-                    chapter: 119,
-                    verse_number: 97,
-                    verse_text: 'O how love I thy law! it is my meditation all the day.'}])
-BibleVerse.create!([{book: 'Job',
-                    chapter: 40,
-                    verse_number: 9,
-                    verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
 BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning, or will He ever have an end?'),
                     book: "Revelation",
                     chapter: 1,
@@ -293,7 +215,7 @@ BibleVerse.create!([{question: Question.new(text: 'Did God create all the invisi
                     book: 'Colossians',
                     chapter: 1,
                     verse_number: '16a',
-                    verse_text: 'For by him were all things created, that are in heaven, and that are in earth, visible and invisible.')}])
+                    verse_text: 'For by him were all things created, that are in heaven, and that are in earth, visible and invisible.'}])
 BibleVerse.create!([{question: Question.new(text: 'How should you respond to God, your Creator?'),
                     book: 'Romans',
                     chapter: 14,
@@ -345,3 +267,55 @@ BibleVerse.create!([{question: Question.new(text: 'How has Adam\'s sin effected 
                     chapter: 7,
                     verse_number: '18a',
                     verse_text: 'For I know that i me (that is, in my flesh,) dwelleth in no good thing.'}])
+
+
+
+
+
+
+
+
+# Defenders
+
+# God's Word - The Bible
+
+BibleVerse.create([{question: Question.new(text: 'What is the Bible?'),
+                    book: '1 Thessalonians',
+                    chapter: 2,
+                    verse_number: 13,
+                    verse_text: 'For this cause also thank we God without ceasing, because, when ye received the word of God which ye heard of us, ye received it not as the word of men, but as it is in truth, the word of God, which effectually worketh also in you that believe.'}])
+BibleVerse.create([{question: Question.new(text: 'How can we know that the Bible really is the true Word of God?'),
+                    book: '1 Corinthians',
+                    chapter: 2,
+                    verse_number: 12,
+                    verse_text: 'Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God.'}])
+BibleVerse.create([{question: Question.new(text: 'How did God give us the Bible?'),
+                    book: '2 Peter',
+                    chapter: 1,
+                    verse_number: 21,
+                    verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost.'}])
+BibleVerse.create([{question: Question.new(text: 'Does the Bible teach any errors or lies?'),
+                    book: 'Psalm',
+                    chapter: 119,
+                    verse_number: 160,
+                    verse_text: 'Thy word is true form the beginning: and every one of thy righteous judgements endureth for ever.'}])
+BibleVerse.create([{question: Question.new(text: 'What does the Bible teach us?'),
+                    book: 'Ecclesiastes',
+                    chapter: 12,
+                    verse_number: 13,
+                    verse_text: 'Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.'}])
+BibleVerse.create([{question: Question.new(text: 'Can we be sure that God\'s Word is still good and true for us today?'),
+                    book: 'Matthew',
+                    chapter: 5,
+                    verse_number: 18,
+                    verse_text: 'For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fufilled.'}])
+BibleVerse.create([{question: Question.new(text: 'Why do we need the Bible?'),
+                    book: '2 Timothy',
+                    chapter: 3,
+                    verse_number: 15,
+                    verse_text: 'And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
+BibleVerse.create([{question: Question.new(text: 'How can we truly get to know God?'),
+                    book: 'Romans',
+                    chapter: 10,
+                    verse_number: 17,
+                    verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])

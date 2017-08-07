@@ -5,11 +5,16 @@
 
   <ul>
     <% bible_verse.errors.full_messages.each do |message| %>
-    <li><%= message %></li>
+    <li><%= message %></li><br />
     <% end %>
   </ul>
 </div>
 <% end %>
+
+<div class='form-group'>
+  <%= form.label :theme %>
+  <%= form.text_field :theme, class: 'form-control', autocomplete: 'off' %>
+</div>
 
 <div class='form-group'>
   <%= form.label :chapter %>

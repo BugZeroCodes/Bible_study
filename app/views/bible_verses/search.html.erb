@@ -1,0 +1,15 @@
+<% if @user_input == '' %>
+  <p>Cannot look up nothing</p>
+<% else %>
+<div class='well'>
+  <h1>Here's what we found for <%= @user_input %>:</h1>
+  <% @results.each do |result| %>
+    <p><%= link_to result.verse_text, bible_verse_path(id: result.id) %></p>
+  <% end %>
+  <% @questions.each do |question| %>
+    <% if !question.bible_verse.blank? %>
+      <p><%= link_to question.text, bible_verse_path(id: question.bible_verse.id) %></p>
+    <% end %>
+  <% end %>
+</div>
+<% end %>

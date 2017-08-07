@@ -6,6 +6,8 @@ class BibleVerse < ApplicationRecord
   has_many :answers
 
   def pretty_printed
-    self.book + ' ' + self.chapter.to_s + ':' + self.verse_number.to_s
+    "#{self.book} #{self.chapter}:#{self.verse_number}"
   end
+
+  validates :book, presence: true
 end

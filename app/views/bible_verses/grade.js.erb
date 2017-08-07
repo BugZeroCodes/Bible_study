@@ -1,11 +1,10 @@
-$('#score-answer').html('Your score is: <%= j @correct.to_s %>');
+$('#score-answer').html('Your score is: <%= j @correct %>')
 $('#score-answer').show(1000)
 <% 3.times do %>
   <% if @correct >= 0.95 %>
     $('#score-answer').html('Yaaaaaaay!!!')
   <% else %>
-    $('#score-answer').html('<a href>Try again.</a>')
+    $('#score-answer').html('Uh oh!!!!<a href>Try again.</a>')
   <% end %>
 <% end %>
 $('form[method="post"]').hide()
-$('label[for="hints"]').hide()

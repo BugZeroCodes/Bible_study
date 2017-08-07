@@ -10,7 +10,6 @@
   body {
     background-color: green;
     background-repeat: no-repeat;
-    background-size: cover;
   }
   a {
     text-decoration: none;
@@ -18,19 +17,19 @@
   a:hover {
     text-decoration: underline;
   }
-  .btn.btn-primary:active {
+  .btn-primary:active {
     background-image: linear-gradient(navy, blue);
   }
-  .btn.btn-success {
+  .btn-success {
     background-image: linear-gradient(lime, green);
   }
-  .btn.btn-warning {
+  .btn-warning {
     background-image: linear-gradient(orange, red);
   }
-  .btn.btn-danger:active {
+  .btn-danger:active {
     background-image: linear-gradient(cyan, red);
   }
-  .btn.btn-default:active {
+  .btn-default:active {
     background-image: linear-gradient(cyan, white);
   }
   .alert.alert-info {
@@ -53,22 +52,22 @@
     border: 1px solid red;
     border-radius: 10px;
   }
-  .btn.btn-success:active {
+  .btn-success:active {
     background-image: linear-gradient(green, lime);
   }
-  .btn.btn-warning:active {
+  .btn-warning:active {
     background-image: linear-gradient(red, orange);
   }
-  .btn.btn-danger {
+  .btn-danger {
     background-image: linear-gradient(red, cyan);
   }
   ol {
     list-style-type: decimal-leading-zero;
   }
-  .btn.btn-primary {
+  .btn-primary {
     background-image: linear-gradient(blue, navy);
   }
-  .btn.btn-default {
+  .btn-default {
     background-image: linear-gradient(white, cyan);
   }
   .alert.alert-info:hover {
@@ -99,10 +98,7 @@
   nav {
     background-color: black;
   }
-  li, ul {
-    display: inline;
-  }
-  span.page.current {
+  span.current {
     color: #001bff;
     padding-right: 5px;
   }
@@ -116,46 +112,12 @@
   code {
     font-family: monospace;
   }
-  .homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
+  .important {
+    color: red;
+    text-transform: uppercase;
   }
-  .no-video .video-container video,
-  .touch .video-container video {
-    display: none;
-  }
-  .no-video .video-container .poster,
-  .touch .video-container .poster {
-    display: block !important;
-  }
-  .video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-  }
-  .video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-  }
-  .video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-  }
-  .video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-  }
-  .video-container video.fillWidth {
-    width: 100%;
+  .semi {
+    display: inline;
   }
   </style>
 </head>
@@ -163,26 +125,21 @@
 <body>
   <nav>
     <ul class='nav navbar-nav'>
-      <li><%= link_to 'Home', bible_verses_path, class: 'btn btn-default' %></li>
+      <%= link_to 'Home', bible_verses_path, class: 'btn btn-default' %>
+      <%= form_with url: 'search', local: true, method: 'get', class: 'inline-form' do %>
+        <%= search_field_tag :query, nil, placeholder: 'Search...', autocomplete: 'off' %>
+        <%= submit_tag 'Search' %>
+      <% end %>
     </ul>
   </nav>
   <% if notice != nil %>
   <p id="notice" class='alert alert-info'><%= notice %></p>
   <% end %>
   <div class='container'>
-    <div class="pull-right">
-      <% if user_signed_in? %>
-      <%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
-      <%= link_to "Edit Profile", edit_user_registration_path, class: "btn btn-primary" %>
-      <% else %>
-      <%= link_to 'Sign Up', new_registration_path(resource_name), class: 'btn btn-default' %>
-      <% end %>
-    </div>
     <%= yield %>
   </div>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script>
-  var isChecked = $('#hints').is(':checked');
   $(function() {
     $('#draggable').draggable();
     $('*').disableSelection();
@@ -191,24 +148,6 @@
     $('#resizable').resizable({
       ghost: true
     });
-  });
-  $('.special').hide();
-  $( ".well" ).draggable({ cursor: "crosshair", cursorAt: { top: -5, left: -5 } });
-  $('#hints').click(function() {
-    if ($(this).is(':checked')) {
-      $('.special').show(2000);
-    } else {
-      $('.special').hide(2000);
-    }
-  });
-  $('label.bb').hide();
-  $('#help').click(function() {
-    if ($('#help').is(':checked')) {
-      $('label.bb').show(400);
-    } else {
-      $('label.bb, .special').hide(400)
-      isChecked = false;
-    }
   });
   </script>
 </body>

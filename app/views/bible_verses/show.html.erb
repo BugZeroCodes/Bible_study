@@ -1,25 +1,14 @@
 <h1><%= @bible_verse.pretty_printed %></h1>
-<label class='bb'><input type='checkbox' name='hint' id='hints' class='navbar-brand' />Show hint</label>
 <div class='special2'>
   <p>
     <%= @bible_verse.question.text %>
   </p>
-  </div>
-  <div class='well special'>
-    <p>
-      <strong>Chapter:</strong>
-      <%= @bible_verse.chapter %>
-    </p>
 
-    <p>
-      <strong>Verse number:</strong>
-      <%= @bible_verse.verse_number %>
-    </p>
-
-    <p>
-      <strong>Book:</strong>
-      <%= @bible_verse.book %>
-    </p>
+  <% unless @answers.count > 3 %>
+    <div class="pull-right">
+      <p><%= @answers.count %> guesses made!</p>
+    </div>
+  <% end %>
   </div>
   <% if @answers.count < 3 %>
       <%= form_with url: grade_path(@bible_verse) do |form| %>
@@ -36,7 +25,6 @@
   </style>
     <p>You already guessed this one 3 times, silly!</p>
   <% end %>
-  <label for="hints"><input type='checkbox' id='help' class='navbar-brand' />I need a hint</label>
 
 <br /><br />
 <div id="score-answer" class='well' style='display: none;'></div>

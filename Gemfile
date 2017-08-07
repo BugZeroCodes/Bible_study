@@ -54,10 +54,10 @@ group :production do
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'devise'
+# Other gems
 gem 'bootstrap'
 gem 'jquery-rails'
-gem 'gravatarify', '~> 3.0.0'
 gem 'carrierwave', '~> 1.0'
 gem 'kaminari'
+gem 'devise'
 gem 'string-similarity'
