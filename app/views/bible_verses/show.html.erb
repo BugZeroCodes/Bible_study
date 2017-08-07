@@ -4,6 +4,12 @@
   <p>
     <%= @bible_verse.question.text %>
   </p>
+
+  <% unless @answers.count > 3 %>
+    <div class="pull-right">
+      <p><%= @answers.count %> guesses made!</p>
+    </div>
+  <% end %>
   </div>
   <div class='well special'>
     <p>

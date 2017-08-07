@@ -13,12 +13,11 @@
     text-align: center;
     vertical-align: middle;
   }
-  a {
+  a, a:active {
     box-shadow: inset -1px 2px 20px 4px black;
   }
   body {
     background-image: url("http://www.aimlowerjournal.com/wp-content/uploads/2015/03/bigstock-little-boy-studying-the-script-80780252-752x440.jpg");
-    background-repeat: no-repeat;
     background-size: contain;
   }
 </style>
@@ -61,4 +60,5 @@
 <br />
 <%= paginate @bible_verses %>
 
-<p>If you are the owner of this application, please run <code>rails db:seed</code> to make new bible verses.</p>
+Please read:
+<p class='important'>If you are the owner of this application, please run <code>rails db:seed</code> to make new bible verses and <code>Answer.destroy_all</code> to delete all answers.</p>

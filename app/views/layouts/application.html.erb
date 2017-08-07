@@ -18,19 +18,19 @@
   a:hover {
     text-decoration: underline;
   }
-  .btn.btn-primary:active {
+  .btn-primary:active {
     background-image: linear-gradient(navy, blue);
   }
-  .btn.btn-success {
+  .btn-success {
     background-image: linear-gradient(lime, green);
   }
-  .btn.btn-warning {
+  .btn-warning {
     background-image: linear-gradient(orange, red);
   }
-  .btn.btn-danger:active {
+  .btn-danger:active {
     background-image: linear-gradient(cyan, red);
   }
-  .btn.btn-default:active {
+  .btn-default:active {
     background-image: linear-gradient(cyan, white);
   }
   .alert.alert-info {
@@ -53,22 +53,22 @@
     border: 1px solid red;
     border-radius: 10px;
   }
-  .btn.btn-success:active {
+  .btn-success:active {
     background-image: linear-gradient(green, lime);
   }
-  .btn.btn-warning:active {
+  .btn-warning:active {
     background-image: linear-gradient(red, orange);
   }
-  .btn.btn-danger {
+  .btn-danger {
     background-image: linear-gradient(red, cyan);
   }
   ol {
     list-style-type: decimal-leading-zero;
   }
-  .btn.btn-primary {
+  .btn-primary {
     background-image: linear-gradient(blue, navy);
   }
-  .btn.btn-default {
+  .btn-default {
     background-image: linear-gradient(white, cyan);
   }
   .alert.alert-info:hover {
@@ -116,46 +116,15 @@
   code {
     font-family: monospace;
   }
-  .homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
+  .important {
+    color: red;
+    text-transform: uppercase;
   }
-  .no-video .video-container video,
-  .touch .video-container video {
-    display: none;
+  ul li {
+    display: inline;
   }
-  .no-video .video-container .poster,
-  .touch .video-container .poster {
-    display: block !important;
-  }
-  .video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-  }
-  .video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-  }
-  .video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-  }
-  .video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-  }
-  .video-container video.fillWidth {
-    width: 100%;
+  .semi {
+    display: inline;
   }
   </style>
 </head>
@@ -172,10 +141,9 @@
   <div class='container'>
     <div class="pull-right">
       <% if user_signed_in? %>
-      <%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
+      <p class='semi' style='border: 5px ridge red; background-color: azure'>Hello, <%= current_user.username %>!</p>
       <%= link_to "Edit Profile", edit_user_registration_path, class: "btn btn-primary" %>
-      <% else %>
-      <%= link_to 'Sign Up', new_registration_path(resource_name), class: 'btn btn-default' %>
+      <%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
       <% end %>
     </div>
     <%= yield %>
