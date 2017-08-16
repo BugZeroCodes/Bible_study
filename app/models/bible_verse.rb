@@ -1,5 +1,5 @@
 class BibleVerse < ApplicationRecord
-  paginates_per 6
+  paginates_per 7
 
   belongs_to :question
 

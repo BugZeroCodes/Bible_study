@@ -180,23 +180,23 @@ BibleVerse.create!([{question: Question.new(text: 'What is "creationism"?'),
                     book:         'Genesis',
                     chapter:      1,
                     verse_number: 1,
-                    verse_text:   'In the beginning God created the heavens and the earth.'}])
+                    verse_text:   'In the beginning God create!d the heavens and the earth.'}])
 BibleVerse.create!([{question: Question.new(text: 'Was there anything evil or bad about God\'s original Creation?'),
                     book: 'Genesis',
                     chapter: 1,
                     verse_number: '31a',
                     verse_text: 'And God saw every thing that he had made, and, behold, it was very good.'}])
-BibleVerse.create!([{question: Question.new(text: 'Why did God create the world and everything in it?'),
+BibleVerse.create!([{question: Question.new(text: 'Why did God create! the world and everything in it?'),
                     book: 'Revelation',
                     chapter: 4,
                     verse_number: 11,
-                    verse_text: 'Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.'}])
-BibleVerse.create!([{question: Question.new(text: 'How long did God take to create the world??'),
+                    verse_text: 'Thou art worthy, O Lord, to receive glory and honour and power: for thou hast create!d all things, and for thy pleasure they are and were create!d.'}])
+BibleVerse.create!([{question: Question.new(text: 'How long did God take to create! the world??'),
                     book: 'Exodus',
                     chapter: 20,
                     verse_number: '11a',
                     verse_text: 'For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day.'}])
-BibleVerse.create!([{question: Question.new(text: 'How did God create the world?'),
+BibleVerse.create!([{question: Question.new(text: 'How did God create! the world?'),
                     book: 'Psalm',
                     chapter: 33,
                     verse_number: 6,
@@ -211,11 +211,11 @@ BibleVerse.create!([{question: Question.new(text: 'What does God\'s creative han
                     chapter: 1,
                     verse_number: '20a',
                     verse_text: 'For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made.'}])
-BibleVerse.create!([{question: Question.new(text: 'Did God create all the invisible things?'),
+BibleVerse.create!([{question: Question.new(text: 'Did God create! all the invisible things?'),
                     book: 'Colossians',
                     chapter: 1,
                     verse_number: '16a',
-                    verse_text: 'For by him were all things created, that are in heaven, and that are in earth, visible and invisible.'}])
+                    verse_text: 'For by him were all things create!d, that are in heaven, and that are in earth, visible and invisible.'}])
 BibleVerse.create!([{question: Question.new(text: 'How should you respond to God, your Creator?'),
                     book: 'Romans',
                     chapter: 14,
@@ -237,12 +237,12 @@ BibleVerse.create!([{question: Question.new(text: 'Why are people the most glori
                     chapter: 86,
                     verse_number: 10,
                     verse_text: ' For thou art great, and doest  wonderous things: thou art God alone.'}])
-BibleVerse.create!([{question: Question.new(text: 'Why did God create you?'),
+BibleVerse.create!([{question: Question.new(text: 'Why did God create! you?'),
                     book: 'Psalm',
                     chapter: 86,
                     verse_number: 11,
                     verse_text: 'Teach me thy way O LORD; I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore.'}])
-BibleVerse.create!([{question: Question.new(text: 'What were Adam and Eve like when God first created them?'),
+BibleVerse.create!([{question: Question.new(text: 'What were Adam and Eve like when God first create!d them?'),
                     book: 'Romans',
                     chapter: 5,
                     verse_number: '12a',
@@ -269,53 +269,144 @@ BibleVerse.create!([{question: Question.new(text: 'How has Adam\'s sin effected 
                     verse_text: 'For I know that i me (that is, in my flesh,) dwelleth in no good thing.'}])
 
 
-
-
-
-
-
-
 # Defenders
 
 # God's Word - The Bible
 
-BibleVerse.create([{question: Question.new(text: 'What is the Bible?'),
+BibleVerse.create!([{question: Question.new(text: 'What is the Bible?'),
                     book: '1 Thessalonians',
                     chapter: 2,
                     verse_number: 13,
                     verse_text: 'For this cause also thank we God without ceasing, because, when ye received the word of God which ye heard of us, ye received it not as the word of men, but as it is in truth, the word of God, which effectually worketh also in you that believe.'}])
-BibleVerse.create([{question: Question.new(text: 'How can we know that the Bible really is the true Word of God?'),
+BibleVerse.create!([{question: Question.new(text: 'How can we know that the Bible really is the true Word of God?'),
                     book: '1 Corinthians',
                     chapter: 2,
                     verse_number: 12,
                     verse_text: 'Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God.'}])
-BibleVerse.create([{question: Question.new(text: 'How did God give us the Bible?'),
+BibleVerse.create!([{question: Question.new(text: 'How did God give us the Bible?'),
                     book: '2 Peter',
                     chapter: 1,
                     verse_number: 21,
                     verse_text: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost.'}])
-BibleVerse.create([{question: Question.new(text: 'Does the Bible teach any errors or lies?'),
+BibleVerse.create!([{question: Question.new(text: 'Does the Bible teach any errors or lies?'),
                     book: 'Psalm',
                     chapter: 119,
                     verse_number: 160,
                     verse_text: 'Thy word is true form the beginning: and every one of thy righteous judgements endureth for ever.'}])
-BibleVerse.create([{question: Question.new(text: 'What does the Bible teach us?'),
+BibleVerse.create!([{question: Question.new(text: 'What does the Bible teach us?'),
                     book: 'Ecclesiastes',
                     chapter: 12,
                     verse_number: 13,
                     verse_text: 'Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.'}])
-BibleVerse.create([{question: Question.new(text: 'Can we be sure that God\'s Word is still good and true for us today?'),
+BibleVerse.create!([{question: Question.new(text: 'Can we be sure that God\'s Word is still good and true for us today?'),
                     book: 'Matthew',
                     chapter: 5,
                     verse_number: 18,
                     verse_text: 'For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fufilled.'}])
-BibleVerse.create([{question: Question.new(text: 'Why do we need the Bible?'),
+BibleVerse.create!([{question: Question.new(text: 'Why do we need the Bible?'),
                     book: '2 Timothy',
                     chapter: 3,
                     verse_number: 15,
                     verse_text: 'And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.'}])
-BibleVerse.create([{question: Question.new(text: 'How can we truly get to know God?'),
+BibleVerse.create!([{question: Question.new(text: 'How can we truly get to know God?'),
                     book: 'Romans',
                     chapter: 10,
                     verse_number: 17,
                     verse_text: 'So then faith cometh by hearing, and hearing by the word of God.'}])
+BibleVerse.create!([{question: Question.new(text: 'What authority does the Bible have over us?'),
+                    book: '2 Timothy',
+                    chapter: 3,
+                    verse_number: 16,
+                    verse_text: 'All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.'}])
+BibleVerse.create!([{question: Question.new(text: 'How does God want us to feel about the Bible?'),
+                    book: 'Psalm',
+                    chapter: 119,
+                    verse_number: 97,
+                    verse_text: 'O how love I thy law! It is my meditation all the day.'}])
+
+# The Greatness of God
+BibleVerse.create!([{question: Question.new(text: 'Does God reveal in His Word that He is greater than us?'),
+                    book: 'Isaiah',
+                    chapter: 55,
+                    verse_number: 8,
+                    verse_text: 'For my thoughts are not your thoughts, neither are your ways my ways, saith the Lord. ' + 'For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.'}])
+BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning, or will He ever have an end?'),
+                     book: "Revelation",
+                     chapter: 1,
+                     verse_number: 8,
+                     verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord, which is, and when was, and which is to come, the Almighty.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does the Lord ever give up, get tired, or change in any way?'),
+                    book: 'Malachi',
+                    chapter: 3,
+                    verse_number: '6a',
+                    verse_text: 'For I am the LORD, I change not.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does God have a body like humans do?'),
+                    book: 'John',
+                    chapter: 4,
+                    verse_number: 24,
+                    verse_text: 'God is a spirit: and they that worship him mush worship him in spirit and in truth.'}])
+BibleVerse.create!([{question: Question.new(text: 'How powerful is God?'),
+                     book: 'Jeremiah',
+                     chapter: 32,
+                     verse_number: 17,
+                     verse_text: 'Ah Lord GOD! behold, thou hast made the heavens and the earth by thy great power and stretched out arm, and there is nothing too hard for thee.'}])
+BibleVerse.create([{question: Question.new(text: 'What does God know?'),
+                    book: '1 John',
+                    chapter: 3,
+                    verse_number: '20b',
+                    verse_text: 'God is greater than our heart, and knoweth all things.'}])
+BibleVerse.create([{question: Question.new(text: 'Can anyone match God\'s greatness?',
+                    book: '1 Timothy',
+                    chapter: 1,
+                    verse_number: 17,
+                    verse_text: 'Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.')},
+BibleVerse.create!([{question: Question.new(text: 'How should you respond to God as you learn about his greatness?'),
+                     book: 'Exodus',
+                     chapter: 15,
+                     verse_number: 11,
+                     verse_text: 'Who is like unto thee, O LORD, among the gods? who is like thee, glorious in holiness, fearful in praises, doing wonders?'}],
+BibleVerse.create!([{question: Question.new(text: 'What is our good God like?'),
+                     book: 'Psalm',
+                     chapter: 34,
+                     verse_number: 8,
+                     verse_text: 'O taste and see that the LORD is good: blessed is the man that trusteth in him'}])
+BibleVerse.create!([{question: Question.new(text: 'Who gives us all good things?')},
+                     book: 'Psalm',
+                     chapter: 84,
+                     verse_number: 11,
+                     verse_text: 'For the Lord God is a sun and shield: the LORD will give grace and glory: no good thing wll he withold from them that walk uprightly.'
+BibleVerse.create!([{question: Question.new(text: 'How good is God?'),
+                    book: 'Isaiah',
+                    chapter: 6,
+                    verse_number: '3b',
+                    verse_text: 'Holy holy holy, is the Lord of hosts: the whole earth is full of glory.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does God ever sin?'),
+                    book: 'Psalm',
+                    chapter: 145,
+                    verse_number: 17,
+                    verse_text: 'The LORD is righteous in all his ways, and holy in all his works.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does God ever lie?'),
+                    book: 'Titus',
+                    chapter: 1,
+                    verse_number: 2,
+                    verse_text: 'In hope of eternl life, which God, that cannot lie, promised before the world began.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does God give everyone good things do not deserve?'),
+                     book: 'Psalm'
+                     chapter: 145,
+                     verse_number: 8,
+                     verse_text: 'The LORD is gracious, and full of compassion; slow to anger, and of great mercy. The LORD is good to all: and his tender mercies are over all his works.'
+BibleVerse.create!([{question: Question.new(text: 'Would God rather punish people or forgive them?'),
+                     book: 'Lamentations'
+                     chapter: 3,
+                     verse_number: 22,
+                     verse_text: 'It is of the LORD\'s mercies that we are not consumed, because his compassions fail not.'
+BibleVerse.create!([{question: Question.new(text: 'Who is the source of all true love?'),
+                     book: '1 John'
+                     chapter: 4,
+                     verse_number: 8,
+                     verse_text: 'He that loveth not knoweth not God; for God is love.'
+BibleVerse.create!([{question: Question.new(text: 'How can you please God?'),
+                     book: '2 Corinthians'
+                     chapter: 5,
+                     verse_number: 14,15
+                     verse_text: 'For the love of Christ constraineth us; because we thus judge, that if one died for all, the '

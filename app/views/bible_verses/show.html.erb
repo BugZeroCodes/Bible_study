@@ -4,13 +4,13 @@
     <%= @bible_verse.question.text %>
   </p>
 
-  <% unless @answers.count > 3 %>
+  <% unless @answers.length > 3 %>
     <div class="pull-right">
-      <p><%= @answers.count %> guesses made!</p>
+      <p><%= @answers.length %> guesses made!</p>
     </div>
   <% end %>
   </div>
-  <% if @answers.count < 3 %>
+  <% if @answers.length < 3 %>
       <%= form_with url: grade_path(@bible_verse) do |form| %>
       <label for="guess">Guess:
       <%= form.text_area :verse, class: 'form-control', autocomplete: 'off' %></label>
