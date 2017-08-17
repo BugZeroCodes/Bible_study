@@ -4,6 +4,23 @@
     <%= @bible_verse.question.text %>
   </p>
 
+  <% unless @answers.count > 3 %>
+    <div class="pull-right">
+      <p><%= @answers.count %> guesses made!</p>
+    </div>
+  <% end %>
+  </div>
+  <div class='well special'>
+    <p>
+      <strong>Chapter:</strong>
+      <%= @bible_verse.chapter %>
+    </p>
+
+    <p>
+      <strong>Verse number:</strong>
+      <%= @bible_verse.verse_number %>
+    </p>
+
   <% unless @answers.length > 3 %>
     <div class="pull-right">
       <p><%= @answers.length %> guesses made!</p>

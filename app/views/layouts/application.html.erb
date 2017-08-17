@@ -136,6 +136,13 @@
   <p id="notice" class='alert alert-info'><%= notice %></p>
   <% end %>
   <div class='container'>
+    <div class="pull-right">
+      <% if user_signed_in? %>
+      <p class='semi' style='border: 5px ridge red; background-color: azure'>Hello, <%= current_user.username %>!</p>
+      <%= link_to "Edit Profile", edit_user_registration_path, class: "btn btn-primary" %>
+      <%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
+      <% end %>
+    </div>
     <%= yield %>
   </div>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
