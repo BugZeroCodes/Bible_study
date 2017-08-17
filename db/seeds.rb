@@ -344,7 +344,7 @@ BibleVerse.create!([{question: Question.new(text: "Does God have a body like hum
                     book: "John",
                     chapter: 4,
                     verse_number: 24,
-                    verse_text: "God is a spirit: and they that worship him mush worship him in spirit and in truth."}])
+                    verse_text: "God is a spirit: and they that worship him must worship him in spirit and in truth."}])
 BibleVerse.create!([{question: Question.new(text: "How powerful is God?"),
                      book: "Jeremiah",
                      chapter: 32,
@@ -355,7 +355,7 @@ BibleVerse.create([{question: Question.new(text: "What does God know?"),
                     chapter: 3,
                     verse_number: "20b",
                     verse_text: "God is greater than our heart, and knoweth all things."}])
-BibleVerse.create([{question: Question.new(text: "Can anyone match God\"s greatness?",
+BibleVerse.create([{question: Question.new(text: "Can anyone match God\"s greatness?"),
                     book: "1 Timothy",
                     chapter: 1,
                     verse_number: 17,
@@ -404,74 +404,74 @@ BibleVerse.create!([{question: Question.new(text: "Who is the source of all true
                      book: "1 John",
                      chapter: 4,
                      verse_number: 8,
-                     verse_text: "He that loveth not knoweth not God; for God is love."
+                     verse_text: "He that loveth not knoweth not God; for God is love."}])
 BibleVerse.create!([{question: Question.new(text: "How can you please God?"),
                      book: "2 Corinthians",
                      chapter: 5,
                      verse_number: 14,
                      verse_text: "For the love of Christ constraineth us; because we thus judge, that if one died for all, then were all dead: And that he died for all, that they which live should not henceforth live unto themselves, but unto Him which died for them, and rose again."}])
 BibleVerse.create!([{question: Question.new(text: "Where does the word Trinity mean in relation to God?"),
-                     book: "Jeremiah"
+                     book: "Jeremiah",
                      chapter: 10,
                      verse_number: 6,
                      verse_text: "Forasmuch as there is none like unto thee, O LORD, thou art great, and thy name is great and might. Who would not fear thee, O king of nations for to the thee doth it appertain. Forasmuch as among all the wise men of the nations, and in all their kingdoms, there is none like thee."}])
 BibleVerse.create!([{question: Question.new(text: "Why must we believe that God is one God in three Presons, each of Whom is fully God?"),
-                     book: "Psalm"
+                     book: "Psalm",
                      chapter: 33,
                      verse_number: 4,
                      verse_text: "For the word of the LORD is right; and all his works are done in truth."}])
-BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that there is only one true God?"
-                     book: "Deuteronomy"
+BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that there is only one true God?"),
+                     book: "Deuteronomy",
                      chapter: 6,
                      verse_number: 4,
                      verse_text: "Hear, O Israel: The LORD our God is one LORD."}])
 BibleVerse.create!([{question: Question.new(text: "Who are the three Persons of the Trinity?"),
-                     book: "Matthew"
+                     book: "Matthew",
                      chapter: 6,
                      verse_number: 19,
                      verse_text: "Go ye therefore, and teach all nations, baptizing them in the name of the Father,and of the Son, and of the Holy Ghost."}])
 BibleVerse.create!([{question: Question.new(text: "What Bible verse lists the Persons of the Trinity and assigns divine qualities to each one?"),
-                     book: "2 Corinthians"
+                     book: "2 Corinthians",
                      chapter: 13,
                      verse_number: 14,
                      verse_text: "The Grace of the Lord Jesus Christ, and the Love of God, and the communion of the Holy Ghost, be with you all."}])
 BibleVerse.create!([{question: Question.new(text: "What is creationism?"),
-                     book: "Genesis"
+                     book: "Genesis",
                      chapter: 1,
                      verse_number: 1,
                      verse_text: "In the beginning, God created the heaven and the earth."}])
 BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that the Father is God?"),
-                     book: "Philipians"
+                     book: "Philipians",
                      chapter: 1,
                      verse_number: 2,
                      verse_text: "Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ."}])
 BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that the Son,Jesus Christ, is God?"),
-                     book: "Hebrews"
+                     book: "Hebrews",
                      chapter: 1,
                      verse_number: 8,
                      verse_text: "But unto the Son he [God] saith, Thy throne, O God, is for ever and ever: a sceptre of righteousness is the sceptre of thy kingdom."}])
 BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that the Holy Spirit is God?"),
-                     book: "2 Corinthians"
+                     book: "2 Corinthians",
                      chapter: 3,
                      verse_number: 17,
                     verse_text: "Now the Lord is the Spirit: and where the Spirit of the Lord is, there is liberty."}])
 BibleVerse.create!([{question: Question.new(text: "How should you respond to learning that God is a Trinity?"),
-                     book: "2 Samuel"
+                     book: "2 Samuel",
                      chapter: 7,
                      verse_number: 22,
                      verse_text: "Wherefore thou art grear, O LORD God: for their is none like thee, neither is there any God beside thee, according to all that we have heard with our ears."}])
 BibleVerse.create!([{question: Question.new(text: "What does Gods creative handiwork show us?"),
-                     book: "Romans"
+                     book: "Romans",
                      chapter: 1,
                      verse_number: "20a",
                      verse_text: "For the invisible things of him fromthe creation of the world are clearly seen, being understood by the things that are made."}])
 BibleVerse.create!([{question: Question.new(text: "Who created you, the world, and everything in the world?"),
-                     book: "Isaiah"
+                     book: "Isaiah",
                      chapter: 45,
                      verse_number: 18,
                      verse_text: "For thus saith the LORD that created the heavens, God himself that formed the earth and made it, he hath established it, he created it not in vain, he formed it to be inhabited: I am the LORD; and there is none else."}])
 BibleVerse.create!([{question: Question.new(text: "Was there anything evil or bad about Gods original Creation?"),
-                     book: "Genesis"
+                     book: "Genesis",
                      chapter: 1,
                      verse_number: 31,
                      verse_text: "And God saw every thing that he hade made, and, behold, it was very good. And the evening and the morning were the sixth day."}])
@@ -479,4 +479,3 @@ BibleVerse.create!([{question: Question.new(text: "Why did God create the world 
                      book: "Revelation",
                      verse_number: 4,
                      verse_text: "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast crreated all things, and for thy pleasure they are and were created."}])
-BibleVerse.create!([{question: Question.new(text:
