@@ -2,6 +2,7 @@ require 'string/similarity'
 class BibleVersesController < ApplicationController
   before_action :set_bible_verse, only: [:show, :edit, :update, :destroy, :grade]
 
+  before_action :authenticate_user!
   # GET /bible_verses
   # GET /bible_verses.json
   def index
