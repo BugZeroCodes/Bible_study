@@ -25,6 +25,7 @@
 <table class='table' id='resizable'>
   <thead>
     <tr>
+      <th>Theme</th>
       <th>Question</th>
       <th>Verse</th>
       <th>Verse text</th>
@@ -35,6 +36,7 @@
   <tbody>
     <% @bible_verses.each do |bible_verse| %>
       <tr>
+        <td><%= bible_verse.theme %></td>
         <td><%= bible_verse.question.text %></td>
         <td><%= bible_verse.pretty_printed %></td>
         <td><%= bible_verse.verse_text %></td>
@@ -61,4 +63,4 @@
 <%= paginate @bible_verses %>
 
 Please read:
-<p class='important'>If you are the owner of this application, please run <code>rails db:seed</code> to make new bible verses and <code>Answer.destroy_all</code> to delete all answers.</p>
+<p class='important'>If you are the owner of this application, please run <code>rails db:seed</code> to make new bible verses, <code>Answer.destroy_all</code> to delete all answers, and all empty themes are Detective themes.</p>
