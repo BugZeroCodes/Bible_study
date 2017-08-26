@@ -125,9 +125,11 @@
   <nav>
     <ul class='nav navbar-nav'>
       <%= link_to 'Home', bible_verses_path, class: 'btn btn-default' %>
-      <%= form_with url: 'search', local: true, method: 'get', class: 'inline-form' do %>
-        <%= search_field_tag :query, nil, placeholder: 'Search...', autocomplete: 'off' %>
-        <%= submit_tag 'Search' %>
+      <% if user_signed_in? %>
+        <%= form_with url: 'search', local: true, method: 'get', class: 'inline-form' do %>
+          <%= search_field_tag :query, nil, placeholder: 'Search...', autocomplete: 'off' %>
+          <%= submit_tag 'Search' %>
+        <% end %>
       <% end %>
     </ul>
   </nav>
