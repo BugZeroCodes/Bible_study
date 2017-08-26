@@ -1,27 +1,27 @@
 # Detectives
 
 # God"s Word - The Bible
-BibleVerse.create!([{question: Question.new(text: "What is the Bible?"),
+BibleVerse.create!([{question: Question.new(text: "What is the Bible?", level: 1, theme: 1, section: 1),
                     book: "1st Thessalonians",
                     chapter: 2,
                     verse_number: "13b",
                     verse_text: "When ye received the word of God which ye heard of us,ye received it not as the word of men, but as it is in truth, the word of God which effectually worketh also in you that believe..."}])
-BibleVerse.create!([{question: Question.new(text: "How can we know that the Bible really is the true God?"),
+BibleVerse.create!([{question: Question.new(text: "How can we know that the Bible really is the true God?", level: 1, theme: 1, section: 1),
                     book: "1st Corinthians",
                     chapter: 2,
                     verse_number: 12,
                     verse_text: "Now we have received not the spirit of the world, but the spirit which is of God; that we might the things that are freely given to us of God."}])
-BibleVerse.create!([{question: Question.new(text: "Is this a question?"),
+BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: 1, theme: 1, section: 1),
                     book: "Lamentations",
                     chapter: 3,
                     verse_number: 22,
                     verse_text: "It is of the LORD\"s mercies that we are not consumed, because his compassions fail not."}])
-BibleVerse.create!([{question: Question.new(text: "Is this a question?"),
+BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: 1, theme: 1, section: 1),
                     book: "1 John",
                     chapter: 3,
                     verse_number: 4,
                     verse_text: "He that loveth not knoweth not God; for God is love."}])
-BibleVerse.create!([{question: Question.new(text: "Is this a question?"),
+BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: 1, theme: 1, section: 1),
                     book: "Romans",
                     chapter: 1,
                     verse_number: 18,
