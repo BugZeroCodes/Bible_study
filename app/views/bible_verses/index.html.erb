@@ -35,12 +35,10 @@
   <tbody>
     <% @bible_verses.each do |bible_verse| %>
       <tr>
-        <% if current_user.level == 'Developers' %>
-          <td><%= bible_verse.question.text if bible_verse.theme == 'Developers' %></td>
-          <td><%= bible_verse.pretty_printed if bible_verse.theme == 'Developers' %></td>
-          <td><%= bible_verse.verse_text if bible_verse.theme == 'Developers' %></td>
+          <td><%= bible_verse.question.text %></td>
+          <td><%= bible_verse.pretty_printed %></td>
+          <td><%= bible_verse.verse_text %></td>
           <td><%= link_to 'Show', bible_verse, class: 'btn btn-success', target: '_blank' %></td>
-        <% end %>
       </tr>
     <% end %>
   </tbody>

@@ -1,4 +1,4 @@
 class Question < ApplicationRecord
-  enum level: ['Developers', 'Detectives', 'Defenders']
+  enum level: [:developers, :detectives, :defenders]
   has_one :bible_verse
 end
