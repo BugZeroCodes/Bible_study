@@ -1,8 +1,6 @@
 require 'string/similarity'
 class BibleVersesController < ApplicationController
   before_action :set_bible_verse, only: [:show, :edit, :update, :destroy, :grade]
-
-  before_action :authenticate_user!
   # GET /bible_verses
   # GET /bible_verses.json
   def index
@@ -68,7 +66,7 @@ class BibleVersesController < ApplicationController
     user_input = params[:verse].downcase.gsub(/\W+/, ' ')
     correct_verse = @bible_verse.verse_text.downcase.gsub(/\W+/, ' ')
     @correct = String::Similarity.cosine user_input, correct_verse
-    @answer = Answer.create(user_id: current_user.id, bible_verse_id: @bible_verse.id, text: user_input.capitalize, score: @correct)
+    @answer = Answer.create(bible_verse_id: @bible_verse.id, text: user_input.capitalize, score: @correct)
   end
 
   def search

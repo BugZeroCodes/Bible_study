@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :users
   resources :bible_verses
   post 'bible_verses/:id/grade' => 'bible_verses#grade', as: :grade
 
