@@ -10,7 +10,7 @@ class BibleVersesController < ApplicationController
   # GET /bible_verses/1
   # GET /bible_verses/1.json
   def show
-    @answers = Answer.where(user_id: current_user.id, bible_verse_id: @bible_verse.id)
+    @answers = Answer.where(bible_verse_id: @bible_verse.id)
   end
 
   # GET /bible_verses/new
