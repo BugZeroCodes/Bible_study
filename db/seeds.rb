@@ -26,27 +26,27 @@ BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: 
                     chapter: 1,
                     verse_number: 18,
                     verse_text: "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness."}])
-BibleVerse.create!([{question: Question.new(text: "Does God give everyone good things that they deserve"),
+BibleVerse.create!([{question: Question.new(text: "Does God give everyone good things that they deserve?", level: 1, theme: 1, section: 6),
                     book: "Psalm",
                     chapter: 145,
                     verse_number: "9a",
                     verse_text: "The LORD is gracious, and full of compassion, slow to anger, and of great mercy." + " The LORD is good to all."}])
-BibleVerse.create!([{question: Question.new(text: "Does God reveal in his word that He is greater than us?"),
+BibleVerse.create!([{question: Question.new(text: "Does God reveal in his word that He is greater than us?", level: 1, theme: 1, section: 7),
                     book: "Isaiah",
                     chapter: 55,
                     verse_number: "9a",
                     verse_text: "For as the heavens are higher than the earth, so are my ways higher than your ways."}])
-BibleVerse.create!([{question: Question.new(text: "Did God ever have a beginning, or will He ever have an end?"),
+BibleVerse.create!([{question: Question.new(text: "Did God ever have a beginning, or will He ever have an end?", level: 1, theme: 1, section: 8),
                     book: "Revelation",
                     chapter: 1,
                     verse_number: "8a",
                     verse_text: "I am Alpha and Omega, the beginning and the end, saith the Lord."}])
-BibleVerse.create!([{question: Question.new(text: "Does the Lord ever give up, get tired, or change in any way?"),
+BibleVerse.create!([{question: Question.new(text: "Does the Lord ever give up, get tired, or change in any way?", level: 1, theme: 1, section: 9),
                     book: "Malachi",
                     chapter: 3,
                     verse_number: "6a",
                     verse_text: "For I am the LORD, I change not."}])
-BibleVerse.create!([{question: Question.new(text: "Does God have a body like human beings do?"),
+BibleVerse.create!([{question: Question.new(text: "Does God have a body like human beings do?", level: 1, theme: 1, section: 10),
                     book: "John",
                     chapter: 4,
                     verse_number: 24,
