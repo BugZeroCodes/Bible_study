@@ -1,4 +1,5 @@
 BibleVerse.destroy_all
+Answer.destroy_all
 # Detectives
 
 # God"s Word - The Bible
