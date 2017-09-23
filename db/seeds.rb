@@ -13,18 +13,18 @@ BibleVerse.create!([{question: Question.new(text: "How can we know that the Bibl
                     book: "1st Corinthians",
                     chapter: 2,
                     verse_number: 12,
-                    verse_text: "Now we have received not the spirit of the world, but the spirit which is of God; that we might the things that are freely given to us of God."}])
-BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: :detectives, theme: 1, section: 3),
-                    book: "Lamentations",
-                    chapter: 3,
-                    verse_number: 22,
-                    verse_text: "It is of the LORD\"s mercies that we are not consumed, because his compassions fail not."}])
-BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: :detectives, theme: 1, section: 4),
+                    verse_text: "Now we have received not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God."}])
+BibleVerse.create!([{question: Question.new(text: "How did God give us the Bible?", level: :defenders, theme: 1, section: 3),
+                     book: "2 Peter",
+                     chapter: 1,
+                     verse_number: 21,
+                     verse_text: "For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost."}])
+BibleVerse.create!([{question: Question.new(text: "", level: :detectives, theme: 1, section: 4),
                     book: "1 John",
                     chapter: 3,
                     verse_number: 4,
                     verse_text: "He that loveth not knoweth not God; for God is love."}])
-BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: :detectives, theme: 1, section: 5),
+BibleVerse.create!([{question: Question.new(text: "", level: :detectives, theme: 1, section: 5),
                     book: "Romans",
                     chapter: 1,
                     verse_number: 18,
@@ -124,7 +124,7 @@ BibleVerse.create!([{question: Question.new(text: "Does God look the other way w
                     chapter: 1,
                     verse_number: 18,
                     verse_text: "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness."}])
-BibleVerse.create!([{question: Question.new(text: "Is this a question?", level: :detectives, theme: 3, section: 4),
+BibleVerse.create!([{question: Question.new(text: "", level: :detectives, theme: 3, section: 4),
                     book: "2 Corinthians",
                     chapter: 5,
                     verse_number: "14a",
@@ -287,12 +287,6 @@ BibleVerse.create!([{question: Question.new(text: "How can we know that the Bibl
                     chapter: 2,
                     verse_number: 12,
                     verse_text: "Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God.",
-                    }])
-BibleVerse.create!([{question: Question.new(text: "How did God give us the Bible?", level: :defenders, theme: 1, section: 3),
-                    book: "2 Peter",
-                    chapter: 1,
-                    verse_number: 21,
-                    verse_text: "For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost."
                     }])
 BibleVerse.create!([{question: Question.new(text: "Does the Bible teach any errors or lies?", level: :defenders, theme: 1, section: 4),
                     book: "Psalm",
