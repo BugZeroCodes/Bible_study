@@ -3,4 +3,8 @@ class QuestionsController < ApplicationController
     @themes = Question.group(:theme)
     @questions = Question.group(:level)
   end
+
+  def by_level
+    
+  end
 end

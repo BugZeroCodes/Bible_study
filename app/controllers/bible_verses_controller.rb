@@ -69,12 +69,6 @@ class BibleVersesController < ApplicationController
     @answer = Answer.create(bible_verse_id: @bible_verse.id, text: user_input.capitalize, score: @correct)
   end
 
-  def search
-    @user_input = params[:query]
-    @results = BibleVerse.where("verse_text LIKE '%#{@user_input}%'")
-    @questions  = Question.where("text LIKE '%#{@user_input}%'")
-  end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_bible_verse

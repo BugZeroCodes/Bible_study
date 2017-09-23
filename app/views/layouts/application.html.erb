@@ -122,14 +122,6 @@
 </head>
 
 <body>
-  <nav>
-    <ul class='nav navbar-nav'>
-      <%= link_to 'Home', root_path, class: 'btn btn-default' %>
-    </ul>
-  </nav>
-  <% if notice != nil %>
-  <p id="notice" class='alert alert-info'><%= notice %></p>
-  <% end %>
   <div class='container'>
     <%= yield %>
   </div>
