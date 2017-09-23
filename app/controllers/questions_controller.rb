@@ -1,5 +1,5 @@
 class QuestionsController < ApplicationController
-  BACKGROUNDS_BY_LEVEL = {'developers' => '#d61f00', 'detectives': '#938469', 'defenders' => '#0a31ff'}
+  BACKGROUNDS_BY_LEVEL = {'developers' => '#d61f00', 'detectives' => '#938469', 'defenders' => '#0a31ff'}
   def index
   end
   def by_level
