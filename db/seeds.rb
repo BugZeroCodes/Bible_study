@@ -183,18 +183,18 @@ BibleVerse.create!([{question: Question.new(text: "What is \"creationism\"?", le
                     book:         "Genesis",
                     chapter:      1,
                     verse_number: 1,
-                    verse_text:   "In the beginning God create!d the heavens and the earth."}])
+                    verse_text:   "In the beginning God created the heavens and the earth."}])
 BibleVerse.create!([{question: Question.new(text: "Was there anything evil or bad about God\"s original Creation?", level: :detectives, theme: 5, section: 3),
                     book: "Genesis",
                     chapter: 1,
                     verse_number: "31a",
                     verse_text: "And God saw every thing that he had made, and, behold, it was very good."}])
-BibleVerse.create!([{question: Question.new(text: "Why did God create! the world and everything in it?", level: :detectives, theme: 5, section: 4),
+BibleVerse.create!([{question: Question.new(text: "Why did God create the world and everything in it?", level: :detectives, theme: 5, section: 4),
                     book: "Revelation",
                     chapter: 4,
                     verse_number: 11,
-                    verse_text: "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were create!d."}])
-BibleVerse.create!([{question: Question.new(text: "How long did God take to create! the world?", level: :detectives, theme: 5, section: 5),
+                    verse_text: "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created."}])
+BibleVerse.create!([{question: Question.new(text: "How long did God take to create the world?", level: :detectives, theme: 5, section: 5),
                     book: "Exodus",
                     chapter: 20,
                     verse_number: "11a",
@@ -214,11 +214,11 @@ BibleVerse.create!([{question: Question.new(text: "What does God\"s creative han
                     chapter: 1,
                     verse_number: "20a",
                     verse_text: "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made."}])
-BibleVerse.create!([{question: Question.new(text: "Did God create! all the invisible things?", level: :detectives, theme: 5, section: 9),
+BibleVerse.create!([{question: Question.new(text: "Did God create all the invisible things?", level: :detectives, theme: 5, section: 9),
                     book: "Colossians",
                     chapter: 1,
                     verse_number: "16a",
-                    verse_text: "For by him were all things create!d, that are in heaven, and that are in earth, visible and invisible."}])
+                    verse_text: "For by him were all things created, that are in heaven, and that are in earth, visible and invisible."}])
 BibleVerse.create!([{question: Question.new(text: "How should you respond to God, your Creator?", level: :detectives, theme: 5, section: 10),
                     book: "Romans",
                     chapter: 14,
