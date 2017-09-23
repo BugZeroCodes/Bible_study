@@ -1,1 +1,1 @@
-Hello!!!
+<%= select_tag :level, options_for_select([:developers, :detectives, :defenders], params[:level]), style: 'width: -webkit-fill-available; border: 5px ridge chocolate;', onchange: 'change()' %>

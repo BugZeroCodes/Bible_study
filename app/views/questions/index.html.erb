@@ -1,20 +1,5 @@
-<div class='row'>
-  <div class='col-md-4'>
-    <h1>Theme</h1>
-  </div>
-  <div class="col-md-6">
-    <h1>Section</h1>
-  </div>
-</div>
-<% @themes.each do |a_theme| %>
- <div class='row'>
-    <div class='col-md-4'>
-      <p style='vertical-align: middle;'><%= a_theme.theme %></p>
-    </div>
-    <div class="col-md-6">
-      <% @questions.where(theme: a_theme.theme).each do |v| %>
-        <%= link_to v.section, bible_verse_path(id: v.bible_verse.id), class: 'btn btn-primary' if v.bible_verse %>
-      <% end %>
-    </div>
-  </div>
-<% end %>
+<h1>Choose a Level...</h1>
+<br />
+<%= link_to 'Developers', level_path(level: :developers) %>
+<%= link_to 'Detectives', level_path(level: :detectives) %>
+<%= link_to 'Defenders', level_path(level: :defenders) %>
