@@ -132,7 +132,7 @@ BibleVerse.create!([{question: Question.new(text: "", level: :detectives, theme:
 BibleVerse.create!([{question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?"),
                     book: "Jeremiah",
                     chapter: 10,
-                    verse_number: 6,
+                    verse_number: 7,
                     verse_text: "Forasmuch as there is none like unto thee, O LORD; thou art great, and thy name is great in might."}])
 BibleVerse.create!([{question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :detectives, theme: 3, section: 4),
                     book: "Jeremiah",
@@ -341,9 +341,9 @@ BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning
 BibleVerse.create!([{question: Question.new(text: 'Does the Lord ever give up, get tired, or change in any way?', level: :defenders, theme: 2, section: 4),
                      book: 'Malachi',
                      chapter: 3,
-                     verse_number: '3:6',
+                     verse_number: 6,
                      verse_text: 'For I am the LORD, I change not.'}])
-BibleVerse.create!([{question: Question.new(text: 'Does God have a body like human beings do?', level: :defenders, theme: 2, section: 5),
+BibleVerse.create!([{question: Question.new(text: 'Does God have a body like human beings do?', lbevel: :defenders, theme: 2, section: 5),
                      book: 'John',
                      chapter: 4,
                      verse_number: 24,
@@ -364,3 +364,21 @@ BibleVerse.create!([{question: Question.new(text: 'Can anyone match God\'s great
                      chapter: 1,
                      verse_number: 17,
                      verse_text: 'Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.'}])
+# -snip-
+
+# The Goodness of God
+BibleVerse.create!([{question: Question.new(text: "What is our good God like?", level: :defenders, theme: 2, section: 1),
+                    book: "Psalm",
+                    chapter: 34,
+                    verse_number: 8,
+                    verse_text: "O taste and see that the LORD is good: blessed is the man that trusteth in him."}])
+BibleVerse.create!([{question: Question.new(text: "Who gives us all good things?", level: :defenders, theme: 2, section: 2),
+                     book: "Psalm",
+                     chapter: 84,
+                     verse_number: 11,
+                     verse_text: "For the LORD God is a sun and shield: the LORD will give grace and glory: no good thing will he withhold from them that walketh uprightly."}])
+BibleVerse.create!([{question: Question.new(text: 'How good is God?', level: :defenders, theme: 3, section: 3),
+                     book: 'Isaiah',
+                     chapter: 6,
+                     verse_number: '3b',
+                     verse_text: 'Holy, holy, holy, is the LORD of hosts: the whole earth is full of his glory.'}])
