@@ -353,3 +353,14 @@ BibleVerse.create!([{question: Question.new(text: 'How powerful is God?', level:
                      chapter: 32,
                      verse_number: 17,
                      verse_text: 'Ah Lord GOD! behold, thou hast made the heavens and the earth by thy great power and stretched out arm, and there is nothing too hard for thee.'}])
+BibleVerse.create!([{question: Question.new(text: "What does God know?", level: :defenders, theme: 2, section: 7),
+                     book: "1 John",
+                     chapter: 3,
+                     verse_number: "20b",
+                     verse_text: "God is greater than our heart, and knoweth all things."}])
+# -snip-
+BibleVerse.create!([{question: Question.new(text: 'Can anyone match God\'s greatness?', level: :defenders, theme: 2, section: 9),
+                     book: '1 Timothy',
+                     chapter: 1,
+                     verse_number: 17,
+                     verse_text: 'Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.'}])
