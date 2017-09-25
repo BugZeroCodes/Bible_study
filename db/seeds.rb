@@ -14,7 +14,7 @@ BibleVerse.create!([{question: Question.new(text: "How can we know that the Bibl
                     chapter: 2,
                     verse_number: 12,
                     verse_text: "Now we have received not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God."}])
-BibleVerse.create!([{question: Question.new(text: "How did God give us the Bible?", level: :defenders, theme: 1, section: 3),
+BibleVerse.create!([{question: Question.new(text: "How did God give us the Bible?", level: :detectives, theme: 1, section: 3),
                      book: "2 Peter",
                      chapter: 1,
                      verse_number: 21,
