@@ -43,21 +43,7 @@
     <% end %>
   </tbody>
 </table>
-<% if @bible_verses.length > 0 %>
-  <div class="well float-right" id='draggable'>
-    <h3 style='text-align: center; vertical-align: center;'>All Bible Verses</h3>
-    <ol>
-      <% @bible_verses.each do |verse| %>
-      <li><%= verse.question.text %></li><br /><br />
-      <li><%= verse.pretty_printed %></li><br />
-      <p><%= verse.verse_text %></p>
-      <% end %>
-    </ol>
-    <%= paginate @bible_verses %>
-  </div>
-<% end %>
 
-<br />
 <%= paginate @bible_verses %>
 
 Please read:

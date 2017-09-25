@@ -53,7 +53,7 @@ BibleVerse.create!([{question: Question.new(text: "Does God have a body like hum
                     book: "John",
                     chapter: 4,
                     verse_number: 24,
-                    verse_text: "God is a spirit: and they that worship him must worship him in spirit and in truth."}])
+                    verse_text: "God is a Spirit: and they that worship him must worship him in spirit and in truth."}])
 BibleVerse.create!([{question: Question.new(text: "How powerful is God?", level: :detectives, theme: 2, section: 1),
                     book: "Jeremiah",
                     chapter: 32,
@@ -333,4 +333,23 @@ BibleVerse.create!([{question: Question.new(text: 'What is our great God like?',
                      chapter: 40,
                      verse_number: 9,
                      verse_text: 'Hast thou cast an arm like God? or canst thou thunder with a voice like him?'}])
-BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning, or will He ever have an end?', level: :defenders)}])
+BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning, or will He ever have an end?', level: :defenders, theme: 2, section: 3),
+                     book: 'Revelation',
+                     chapter: 1,
+                     verse_number: 8,
+                     verse_text: 'I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does the Lord ever give up, get tired, or change in any way?', level: :defenders, theme: 2, section: 4),
+                     book: 'Malachi',
+                     chapter: 3,
+                     verse_number: '3:6',
+                     verse_text: 'For I am the LORD, I change not.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does God have a body like human beings do?', level: :defenders, theme: 2, section: 5),
+                     book: 'John',
+                     chapter: 4,
+                     verse_number: 24,
+                     verse_text: 'God is a Spirit: and they that worship him must worship him in spirit and in truth.'}])
+BibleVerse.create!([{question: Question.new(text: 'How powerful is God?', level: :defenders, theme: 2, section: 6),
+                     book: 'Jeremiah',
+                     chapter: 32,
+                     verse_number: 17,
+                     verse_text: 'Ah Lord GOD! behold, thou hast made the heavens and the earth by thy great power and stretched out arm, and there is nothing too hard for thee.'}])
