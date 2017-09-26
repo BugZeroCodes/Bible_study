@@ -518,7 +518,7 @@ BibleVerse.create!([{question: Question.new(text: 'What does God\'s creative han
                      chapter: 1,
                      verse_number: 20,
                      verse_text: 'For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse.'}])
-BibleVerse.create!([{question: Question.new(text: 'Did God create all the invisible things?', theme: :defenders, level: 5, section: 9),
+BibleVerse.create!([{question: Question.new(text: 'Did God create all the invisible things?', level: :defenders, theme: 5, section: 9),
                      book: 'Colossians',
                      chapter: 1,
                      verse_number: 16,
