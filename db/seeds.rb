@@ -410,8 +410,55 @@ BibleVerse.create!([{question: Question.new(text: "Would God rather punish peopl
                      verse_number: 22,
                      verse_text: "It is of the LORD\"s mercies that we are not consumed, because his compassions fail not."}])
 
-BibleVerse.create!([{question: Question.new(text: "Who is the source of all true love?", level: :detectives, theme: 3, section: 8),
+BibleVerse.create!([{question: Question.new(text: "Who is the source of all true love?", level: :defenders, theme: 3, section: 8),
                      book: "1 John",
                      chapter: 4,
                      verse_number: 8,
                      verse_text: "He that loveth not knoweth not God; for God is love."}])
+BibleVerse.create!([{question: Question.new(text: "Does God look the other way when we sin?", level: :defenders, theme: 3, section: 9),
+                     book: "Romans",
+                     chapter: 1,
+                     verse_number: 18,
+                     verse_text: "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness."}])
+BibleVerse.create!([{question: Question.new(text: 'How can you please God?', level: :defenders, theme: 3, section: 10),
+                     book: '2 Corinthians',
+                     chapter: 5,
+                     verse_number: 14,
+                     verse_text: 'For the love of Christ constraineth us; because we thus judge, that if one died for all, then were all dead:'}])
+BibleVerse.create!([{question: Question.new(text: 'How can you please God?', level: :defenders, theme: 3, section: 10),
+                     book: '2 Corinthians',
+                     chapter: 5,
+                     verse_number: 15,
+                     verse_text: 'And that he died for all, that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again.'}])
+# The Trinity
+BibleVerse.create!([{question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :defenders, theme: 4, section: 1),
+                    book: "Jeremiah",
+                    chapter: 10,
+                    verse_number: 6,
+                    verse_text: "Forasmuch as there is none like unto thee, O LORD; thou art great, and thy name is great in might."}])
+BibleVerse.create!([{question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :defenders, theme: 4, section: 1),
+                    book: "Jeremiah",
+                    chapter: 10,
+                    verse_number: 7,
+                    verse_text: "Who would not fear thee, O King of nations? for to thee doth it appertain: forasmuch as among all the wise men of the nations, and in all their kingdoms, there is none like unto thee."}])
+# -snip-
+BibleVerse.create!([{question: Question.new(text: "Why must we believe that God is one God in three Persons, each of Whom is fully God?", level: :defenders, theme: 4, section: 3),
+                    book: "Psalm",
+                    chapter: 33,
+                    verse_number: 4,
+                    verse_text: "For the word of the LORD is right; and all his works are done in truth."}])
+BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that there is only one true God?", level: :defenders, theme: 4, section: 4),
+                     book: "Deuteronomy",
+                     chapter: 6,
+                     verse_number: 4,
+                     verse_text: "Hear O Israel: The LORD our God is one LORD."}])
+BibleVerse.create!([{question: Question.new(text: 'Who are the three Persons of the Trinity?', level: :defenders, theme: 4, section: 5),
+                     book: 'Matthew',
+                     chapter: 28,
+                     verse_number: 19,
+                     verse_text: 'Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:'}])
+BibleVerse.create!([{question: Question.new(text: "What Bible verse lists the Persons of the Trinity and assigns divine qualities to each one?", level: :defenders, theme: 4, section: 6),
+                     book: "2 Corinthians",
+                     chapter: 13,
+                     verse_number: 14,
+                     verse_text: "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all."}])
