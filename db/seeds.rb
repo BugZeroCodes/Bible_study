@@ -507,3 +507,84 @@ BibleVerse.create!([{question: Question.new(text: 'How long did it take God to c
                      chapter: 20,
                      verse_number: 11,
                      verse_text: 'For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.'}])
+# -snip-
+BibleVerse.create!([{question: Question.new(text: 'How can we know for sure that God made everything?', level: :defenders, theme: 5, section: 7),
+                     book: 'Hebrews',
+                     chapter: 11,
+                     verse_number: 3,
+                     verse_text: 'Trough faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.'}])
+BibleVerse.create!([{question: Question.new(text: 'What does God\'s creative handiwork show us?', level: :defenders, theme: 5, section: 8),
+                     book: 'Romans',
+                     chapter: 1,
+                     verse_number: 20,
+                     verse_text: 'For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse.'}])
+BibleVerse.create!([{question: Question.new(text: 'Did God create all the invisible things?', theme: :defenders, level: 5, section: 9),
+                     book: 'Colossians',
+                     chapter: 1,
+                     verse_number: 16,
+                     verse_text: 'For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him.'}])
+BibleVerse.create!([{question: Question.new(text: "How should you respond to God, your Creator?", level: :defenders, theme: 5, section: 10),
+                     book: "Romans",
+                     chapter: 14,
+                     verse_number: 12,
+                     verse_text: "So then every one of us shall give account of himself to God."}])
+BibleVerse.create!([{question: Question.new(text: 'How did the first human come to be?', level: :defenders, theme: 6, section: 1),
+                     book: 'Genesis',
+                     chapter: 2,
+                     verse_number: 7,
+                     verse_text: 'And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.'}])
+BibleVerse.create!([{question: Question.new(text: 'What does the phrase "made in the image of God" mean?', level: :defenders, theme: 6, section: 2),
+                     book: 'Genesis',
+                     chapter: 1,
+                     verse_number: 27,
+                     verse_text: 'So God created man in his own image, in the image of God created he him; male and female created he them.'}])
+BibleVerse.create!([{question: Question.new(text: "Why are people the most glorious part of God\"s Creation?", level: :defenders, theme: 6, section: 3),
+                     book: "Psalm",
+                     chapter: 86,
+                     verse_number: 9,
+                     verse_text: "All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name."}])
+BibleVerse.create!([{question: Question.new(text: "Why are people the most glorious part of God\"s Creation?", level: :detectives, theme: 6, section: 2),
+                     book: "Psalm",
+                     chapter: 86,
+                     verse_number: 10,
+                     verse_text: "For thou art great, and doest wonderous things: thou art God alone."}])
+BibleVerse.create!([{question: Question.new(text: 'Why did God create you?', level: :defenders, theme: 6, section: 4),
+                     book: 'Psalm',
+                     chapter: 86,
+                     verse_number: 11,
+                     verse_text: 'Teach me thy way, O Lord; I will walk in thy truth: unite my heart to fear thy name.'}])
+BibleVerse.create!([{question: Question.new(text: 'Why did God create you?', level: :defenders, theme: 6, section: 4),
+                     book: 'Psalm',
+                     chapter: 86,
+                     verse_number: 12,
+                     verse_text: 'I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore.'}])
+BibleVerse.create!([{question: Question.new(text: 'What were Adam and Eve like when God created them?', level: :defenders, theme: 6, section: 5),
+                     book: 'Psalm',
+                     chapter: 16,
+                     verse_number: 11,
+                     verse_text: 'Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore.'}])
+BibleVerse.create!([{question: Question.new(text: 'Is every descendant of Adam a sinner?', level: :defenders, theme: 6, section: 6),
+                     book: 'Romans',
+                     chapter: 5,
+                     verse_number: 12,
+                     verse_text: 'Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned.'}])
+BibleVerse.create!([{question: Question.new(text: "What is sin?", level: :defenders, theme: 6, section: 7),
+                     book: "Romans",
+                     chapter: 3,
+                     verse_number: 23,
+                     verse_text: "For all have sinned, and come short of the glory of God."}])
+BibleVerse.create!([{question: Question.new(text: 'What are the effects of Adam\'s sin on humanity?', level: :defenders, theme: 6, section: 8),
+                     book: '1 Corinthians',
+                     chapter: 15,
+                     verse_number: 22,
+                     verse_text: 'For as in Adam all die, even so in Christ shall all be made alive.'}])
+BibleVerse.create!([{question: Question.new(text: 'What did God do to save sinners from their sin?', level: :defenders, theme: 6, section: 9),
+                     book: 'John',
+                     chapter: 3,
+                     verse_number: 16,
+                     verse_text: 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.'}])
+BibleVerse.create!([{question: Question.new(text: 'How has Adam\'s sin affected you?', level: :defenders, theme: 6, section: 10),
+                     book: 'Romans',
+                     chapter: 7,
+                     verse_number: 18,
+                     verse_text: 'For I know that in me (that is, in my flesh,) dwelleth no good thing: for to will is present with me; but how to perform that which is good I find not.'}])
