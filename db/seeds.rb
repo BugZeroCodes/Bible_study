@@ -462,3 +462,48 @@ BibleVerse.create!([{question: Question.new(text: "What Bible verse lists the Pe
                      chapter: 13,
                      verse_number: 14,
                      verse_text: "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all."}])
+BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that the Father is God?", level: :defenders, theme: 4, section: 7),
+                     book: "Philipians",
+                     chapter: 1,
+                     verse_number: 2,
+                     verse_text: "Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ."}])
+BibleVerse.create!([{question: Question.new(text: "Does the Bible teach that the Son, Jesus Christ, is God?", level: :defenders, theme: 4, section: 8),
+                     book: "Hebrews",
+                     chapter: 1,
+                     verse_number: 8,
+                     verse_text: "But unto the Son he saith, Thy throne, O God, is for ever and ever: a sceptre of righteousness is the sceptre of thy kingdom."}])
+BibleVerse.create!([{question: Question.new(text: 'Does the Bible teach that the Holy Spirit is God?', level: :defenders, theme: 4, section: 9),
+                     book: '2 Corinthians',
+                     chapter: 3,
+                     verse_number: 17,
+                     verse_text: 'Now the Lord is that Spirit: and where the Spirit of the Lord is, there is liberty.'}])
+BibleVerse.create!([{question: Question.new(text: "How should you respond to learning that God is a Trinity?", level: :defenders, theme: 4, section: 10),
+                     book: "2 Samuel",
+                     chapter: 7,
+                     verse_number: 22,
+                     verse_text: "Wherefore thou art great, O LORD God: for there is none like thee, neither is there any God beside thee, according to all that we have heard with our ears."}])
+BibleVerse.create!([{question: Question.new(text: "What is \"creationism\"?", level: :defenders, theme: 5, section: 1),
+                     book: "Genesis",
+                     chapter: 1,
+                     verse_number: 1,
+                     verse_text: "In the beginning God created the heavens and the earth."}])
+BibleVerse.create!([{question: Question.new(text: 'Who created you, the world, and everything in the world?', level: :defenders, theme: 5, section: 2),
+                      book: 'Isaiah',
+                      chapter: 45,
+                      verse_number: 18,
+                      verse_text: 'For thus saith the LORD that created the heavens; God himself that formed the earth and made it; he hath established it, he created it not in vain, he formed it to be inhabited: I am the LORD; and there is none else.'}])
+BibleVerse.create!([{question: Question.new(text: "Was there anything evil or bad about God's original Creation?", level: :defenders, theme: 5, section: 3),
+                     book: "Genesis",
+                     chapter: 1,
+                     verse_number: 31,
+                     verse_text: "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day."}])
+BibleVerse.create!([{question: Question.new(text: "Why did God create the world and everything in it?", level: :defenders, theme: 5, section: 4),
+                     book: "Revelation",
+                     chapter: 4,
+                     verse_number: 11,
+                     verse_text: "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created."}])
+BibleVerse.create!([{question: Question.new(text: 'How long did it take God to create the world?', level: :defenders, theme: 5, section: 5),
+                     book: 'Exodus',
+                     chapter: 20,
+                     verse_number: 11,
+                     verse_text: 'For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.'}])
