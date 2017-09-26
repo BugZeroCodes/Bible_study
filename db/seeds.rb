@@ -343,7 +343,7 @@ BibleVerse.create!([{question: Question.new(text: 'Does the Lord ever give up, g
                      chapter: 3,
                      verse_number: 6,
                      verse_text: 'For I am the LORD, I change not.'}])
-BibleVerse.create!([{question: Question.new(text: 'Does God have a body like human beings do?', lbevel: :defenders, theme: 2, section: 5),
+BibleVerse.create!([{question: Question.new(text: 'Does God have a body like human beings do?', level: :defenders, theme: 2, section: 5),
                      book: 'John',
                      chapter: 4,
                      verse_number: 24,
