@@ -382,3 +382,36 @@ BibleVerse.create!([{question: Question.new(text: 'How good is God?', level: :de
                      chapter: 6,
                      verse_number: '3b',
                      verse_text: 'Holy, holy, holy, is the LORD of hosts: the whole earth is full of his glory.'}])
+# -snip-
+BibleVerse.create!([{question: Question.new(text: 'Does God ever sin?', level: :defenders, theme: 3, section: 4),
+                     book: 'Psalm',
+                     chapter: 145,
+                     verse_number: 17,
+                     verse_text: 'The LORD is righteous in all his ways, and holy in all his works.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does God ever lie?', level: :defenders, theme: 3, section: 5),
+                     book: 'Titus',
+                     chapter: 1,
+                     verse_number: 2,
+                     verse_text: 'In hope of eternal life, which God, that cannot lie, promised before the world began.'}])
+# -snip-
+BibleVerse.create!([{question: Question.new(text: 'Does God give to everyone good things they do not deserve?', level: :defenders, theme: 3, section: 6),
+                     book: 'Psalm',
+                     chapter: 148,
+                     verse_number: 8,
+                     verse_text: 'The LORD is gracious, and full of compassion; slow to anger, and of great mercy.'}])
+BibleVerse.create!([{question: Question.new(text: 'Does God give to everyone good things they do not deserve?', level: :defenders, theme: 3, section: 6),
+                     book: 'Psalm',
+                     chapter: 148,
+                     verse_number: 9,
+                     verse_text: 'The LORD is good to all: and his tender mercies are over all his works.'}])
+BibleVerse.create!([{question: Question.new(text: "Would God rather punish people or forgive them?", level: :defenders, theme: 3, section: 7),
+                     book: "Lamentations",
+                     chapter: 3,
+                     verse_number: 22,
+                     verse_text: "It is of the LORD\"s mercies that we are not consumed, because his compassions fail not."}])
+
+BibleVerse.create!([{question: Question.new(text: "Who is the source of all true love?", level: :detectives, theme: 3, section: 8),
+                     book: "1 John",
+                     chapter: 4,
+                     verse_number: 8,
+                     verse_text: "He that loveth not knoweth not God; for God is love."}])

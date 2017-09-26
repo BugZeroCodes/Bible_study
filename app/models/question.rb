@@ -3,6 +3,6 @@ class Question < ApplicationRecord
   has_one :bible_verse
 
 
-  # Validation
+  # Validations
   validates :theme, :section, :level, presence: true
 end
