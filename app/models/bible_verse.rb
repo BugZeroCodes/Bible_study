@@ -10,5 +10,4 @@ class BibleVerse < ApplicationRecord
   end
 
   validates :book, presence: true
-  serialize :verse_number, String
 end
