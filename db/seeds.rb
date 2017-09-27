@@ -32,7 +32,7 @@ BibleVerse.create!([{question: Question.new(text: "What does the Bible teach us?
 BibleVerse.create!([{question: Question.new(text: "Can we be sure that God's Word is still good and true for us today?", level: :detectives, theme: 1, section: 6),
                     book: "Matthew",
                     chapter: 5,
-                    verse_number: "18",
+                    verse_number: 18,
                     verse_text: "Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled."}])
 BibleVerse.create!([{question: Question.new(text: "Why do we need the Bible?", level: :detectives, theme: 1, section: 7),
                     book: "2 Timothy",
