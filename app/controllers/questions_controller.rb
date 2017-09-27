@@ -7,7 +7,7 @@ class QuestionsController < ApplicationController
     if !levels.include? params[:level]
       redirect_to :root
     end
-    @questions_by_theme = Question.where(level: params[:level]).group_by(&:theme)
+    @questions_by_theme = Question.where(level: params[:level]).order(:theme).group_by(&:theme)
     @background_color = BACKGROUNDS_BY_LEVEL[params[:level]]
   end
 end
