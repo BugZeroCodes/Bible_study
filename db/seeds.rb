@@ -64,11 +64,11 @@ BibleVerse.create!([{question: Question.new(text: 'What is our great God like?',
                      chapter: 40,
                      verse_number: 9,
                      verse_text: 'Hast thou cast an arm like God? or canst thou thunder with a voice like him?'}])
-BibleVerse.create!([{question: Question.new(text: "Where is God?", level: :detectives, theme: 2, section: 3),
-                    book: "Jeremiah",
-                    chapter: 23,
-                    verse_number: "24b",
-                    verse_text: "Do not I fill the heavens and the earth? saith the Lord."}])
+BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning, or will He ever have an end?', level: :detectives, theme: 2, section: 3),
+                     book: 'Revelation',
+                     chapter: 1,
+                     verse_number: 8,
+                     verse_text: 'I am Alpha and Omega, the beginning and the ending, saith the Lord.'}])
 BibleVerse.create!([{question: Question.new(text: "Can anyone match God\"s greatness?", level: :detectives, theme: 2, section: 4),
                     book: "1 Timothy",
                     chapter: 1,
