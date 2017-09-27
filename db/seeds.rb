@@ -49,11 +49,11 @@ BibleVerse.create!([{question: Question.new(text: "What authority does the Bible
                     chapter: 3,
                     verse_number: 16,
                     verse_text: "For I am the LORD, I change not."}])
-BibleVerse.create!([{question: Question.new(text: "Does God have a body like human beings do?", level: :detectives, theme: 1, section: 10),
-                    book: "John",
-                    chapter: 4,
-                    verse_number: 24,
-                    verse_text: "God is a Spirit: and they that worship him must worship him in spirit and in truth."}])
+BibleVerse.create!([{question: Question.new(text: "How does God want us to feel about the Bible?", level: :detectives, theme: 1, section: 10),
+                     book: "Psalm",
+                     chapter: 119,
+                     verse_number: 97,
+                     verse_text: "O how love I thy law! It is my meditation all the day."}])
 BibleVerse.create!([{question: Question.new(text: "How powerful is God?", level: :detectives, theme: 2, section: 1),
                     book: "Jeremiah",
                     chapter: 32,
@@ -316,11 +316,7 @@ BibleVerse.create!([{question: Question.new(text: "What authority does the Bible
                     chapter: 3,
                     verse_number: 16,
                     verse_text: "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness."}])
-BibleVerse.create!([{question: Question.new(text: "How does God want us to feel about the Bible?", level: :defenders, theme: 1, section: 10),
-                    book: "Psalm",
-                    chapter: 119,
-                    verse_number: 97,
-                    verse_text: "O how love I thy law! It is my meditation all the day."}])
+
 
 # The Greatness of God
 BibleVerse.create!([{question: Question.new(text: "Does God reveal in His Word that He is greater than us?", level: :defenders, theme: 2, section: 1),
