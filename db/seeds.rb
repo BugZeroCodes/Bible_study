@@ -32,7 +32,7 @@ BibleVerse.create!([{question: Question.new(text: "What does the Bible teach us?
 BibleVerse.create!([{question: Question.new(text: "Can we be sure that God's Word is still good and true for us today?", level: :detectives, theme: 1, section: 6),
                     book: "Matthew",
                     chapter: 5,
-                    verse_number: 18,
+                    verse_number: "18",
                     verse_text: "Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled."}])
 BibleVerse.create!([{question: Question.new(text: "Why do we need the Bible?", level: :detectives, theme: 1, section: 7),
                     book: "2 Timothy",
@@ -54,16 +54,16 @@ BibleVerse.create!([{question: Question.new(text: "How does God want us to feel 
                      chapter: 119,
                      verse_number: 97,
                      verse_text: "O how love I thy law! It is my meditation all the day."}])
-BibleVerse.create!([{question: Question.new(text: "How powerful is God?", level: :detectives, theme: 2, section: 1),
-                    book: "Jeremiah",
-                    chapter: 32,
-                    verse_number: 17,
-                    verse_text: "Ah Lord GOD! behold, thou hast made the heavens and the earth by thy great power and stretched out arm, and there is nothing too hard for thee."}])
-BibleVerse.create!([{question: Question.new(text: "What does God know?", level: :detectives, theme: 2, section: 2),
-                    book: "1 John",
-                    chapter: 3,
-                    verse_number: "20b",
-                    verse_text: "God is greater than our heart, and knoweth all things."}])
+BibleVerse.create!([{question: Question.new(text: "Does God reveal in His Word that He is greater than us?", level: :detectives, theme: 2, section: 1),
+                     book: "Isaiah",
+                     chapter: 55,
+                     verse_number: 9,
+                     verse_text: "For as the heavens are higher than the earth, so are my ways higher than your ways."}])
+BibleVerse.create!([{question: Question.new(text: 'What is our great God like?', level: :detectives, theme: 2, section: 2),
+                     book: 'Job',
+                     chapter: 40,
+                     verse_number: 9,
+                     verse_text: 'Hast thou cast an arm like God? or canst thou thunder with a voice like him?'}])
 BibleVerse.create!([{question: Question.new(text: "Where is God?", level: :detectives, theme: 2, section: 3),
                     book: "Jeremiah",
                     chapter: 23,
