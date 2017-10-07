@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170826151554) do
+ActiveRecord::Schema.define(version: 20171007173249) do
 
   create_table "answers", force: :cascade do |t|
     t.text "text"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20170826151554) do
   create_table "bible_verses", force: :cascade do |t|
     t.string "question"
     t.integer "chapter"
-    t.integer "verse_number"
+    t.string "verse_number"
     t.string "book"
     t.text "verse_text"
     t.datetime "created_at", null: false

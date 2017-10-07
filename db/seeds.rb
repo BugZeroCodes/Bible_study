@@ -565,7 +565,7 @@ BibleVerse.create!([{question: Question.new(text: 'What does the phrase "made in
 BibleVerse.create!([{question: Question.new(text: "Why are people the most glorious part of God\"s Creation?", level: :defenders, theme: 6, section: 3),
                      book: "Psalm",
                      chapter: 86,
-                     verse_number: "9,10"
+                     verse_number: "9,10",
                      verse_text: "All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name. For thou art great, and doest wonderous things: thou art God alone."}])
 BibleVerse.create!([{question: Question.new(text: 'Why did God create you?', level: :defenders, theme: 6, section: 4),
                      book: 'Psalm',
