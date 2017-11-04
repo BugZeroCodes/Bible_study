@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   root 'questions#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get 'questions/:level' => 'questions#by_level', as: :level
+  get 'questions/:id' => 'main#all_questions'
 end

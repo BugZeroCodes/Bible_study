@@ -375,11 +375,11 @@ BibleVerse.create!([{question: Question.new(text: "Does God reveal in His Word t
                     chapter: 55,
                     verse_number: '8,9',
                     verse_text: "For my thoughts are not your thoughts, neither are your ways my ways, saith the Lord. For as the heavens are higher than the earth, so are my ways higher than your ways."}])
-BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning, or will He ever have an end?', level: :defenders, theme: 2, section: 3),
-                     book: 'Revelation',
-                     chapter: 1,
-                     verse_number: 8,
-                     verse_text: 'I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty.'}])
+BibleVerse.create!([{question: Question.new(text: 'What is our great God like?', level: :defenders, theme: 2, section: 2),
+                     book: 'Job',
+                     chapter: 40,
+                     verse_number: 9,
+                     verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
 BibleVerse.create!([{question: Question.new(text: 'Does the Lord ever give up, get tired, or change in any way?', level: :defenders, theme: 2, section: 4),
                      book: 'Malachi',
                      chapter: 3,
