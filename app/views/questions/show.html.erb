@@ -1,5 +1,9 @@
-<h1><%= @question.text %></h1>
-<% @question.bible_verses.each do |bv| %>
-  <p><%= link_to bv.pretty_printed, bv %></p>
-<% end %>
+<div class="panel panel-success">
+  <div class='panel-heading'><h1><%= @question.text %></h1></div>
+  <div class="panel-body">
+    <% @question.bible_verses.each do |bv| %>
+      <p><%= link_to bv.pretty_printed, bv %></p>
+    <% end %>
+  </div>
+</div>
 <%= link_to 'Back', level_path(level: @question.level), style: 'color: red;', class: 'btn' %>
