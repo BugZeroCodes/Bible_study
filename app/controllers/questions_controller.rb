@@ -10,4 +10,7 @@ class QuestionsController < ApplicationController
     @questions_by_theme = Question.where(level: params[:level]).order(:theme).group_by(&:theme)
     @background_color = BACKGROUNDS_BY_LEVEL[params[:level]]
   end
+  def show
+    @question = Question.find(params[:id])
+  end
 end

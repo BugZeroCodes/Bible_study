@@ -15,7 +15,7 @@
     </div>
     <div class="col-md-8">
       <% questions.sort_by {|q| q.section}.each do |q| %>
-        <%= link_to q.section, bible_verse_path(id: q.bible_verse.id), class: 'link', style: "background-color: #{@background_color}" %>
+        <%= link_to q.section, question_path(id: q.id), class: 'link', style: "background-color: #{@background_color}" %>
       <% end %>
     </div>
   </div>
