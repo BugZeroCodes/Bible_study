@@ -12,5 +12,8 @@ class QuestionsController < ApplicationController
   end
   def show
     @question = Question.find(params[:id])
+    if @question.bible_verses.count == 1
+      redirect_to bible_verse
+    end
   end
 end

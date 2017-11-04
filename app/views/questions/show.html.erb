@@ -2,3 +2,4 @@
 <% @question.bible_verses.each do |bv| %>
   <p><%= link_to bv.pretty_printed, bv %></p>
 <% end %>
+<%= link_to 'Back', level_path(level: @question.level), style: 'color: red;', class: 'btn' %>
