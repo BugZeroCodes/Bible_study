@@ -133,11 +133,17 @@ BibleVerse.create!([{question: Question.new(text: "Does God ever lie?", level: :
                     chapter: 1,
                     verse_number: 2,
                     verse_text: "In hope of eternal life, which God, that cannot lie, promised before the world began."}])
-BibleVerse.create!([{question: Question.new(text: "Does God give everyone good things that they do not deserve?", level: :detectives, theme: 3, section: 6),
+q = Question.new(text: "Does God give everyone good things that they do not deserve?", level: :detectives, theme: 3, section: 6)
+BibleVerse.create!([{question: q,
                     book: "Psalm",
                     chapter: 145,
-                    verse_number: '8,9a',
-                    verse_text: "The LORD is gracious, and full of compassion; slow to anger, and of great mercy." + " The LORD is good to all."}])
+                    verse_number: '8',
+                    verse_text: "The LORD is gracious, and full of compassion; slow to anger, and of great mercy."}])
+BibleVerse.create!([{question: q,
+                    book: "Psalm",
+                    chapter: 145,
+                    verse_number: '9a',
+                    verse_text: "The LORD is good to all."}])
 BibleVerse.create!([{question: Question.new(text: "Would God rather punish people or forgive them?", level: :detectives, theme: 3, section: 7),
                     book: "Lamentations",
                     chapter: 3,
@@ -160,11 +166,17 @@ BibleVerse.create!([{question: Question.new(text: "How can you please God?", lev
                     verse_text: "For the love of Christ constraineth us; because... he died for all, that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again."}])
 
 # The Trinity
-BibleVerse.create!([{question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :detectives, theme: 4, section: 1),
+q = Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :detectives, theme: 4, section: 1)
+BibleVerse.create!([{question: q,
                     book: "Jeremiah",
                     chapter: 10,
-                    verse_number: '6,7a',
+                    verse_number: '6',
                     verse_text: "Forasmuch as there is none like unto thee, O LORD; thou art great, and thy name is great in might. Who would not fear thee, O King of nations? for to thee doth it appertain."}])
+BibleVerse.create!([{question: q,
+                    book: "Jeremiah",
+                    chapter: 10,
+                    verse_number: '7a',
+                    verse_text: "Who would not fear thee, O King of nations? for to thee doth it appertain."}])
 BibleVerse.create!([{question: Question.new(text: "Has God always been a Trinity?", level: :detectives, theme: 4, section: 2),
                     book: "John",
                     chapter: 17,
@@ -267,21 +279,33 @@ BibleVerse.create!([{question: Question.new(text: "How did the first human come 
                     chapter: 2,
                     verse_number: "7a",
                     verse_text: "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life."}])
-BibleVerse.create!([{question: Question.new(text: "What does the phrase made in the image of God", level: :detectives, theme: 6, section: 2),
+BibleVerse.create!([{question: Question.new(text: "What does the phrase made in the image of God?", level: :detectives, theme: 6, section: 2),
                     book: "Genesis",
                     chapter: 1,
                     verse_number: "27a",
                     verse_text: "So God created man in his own image, in the image of God created he him."}])
-BibleVerse.create!([{question: Question.new(text: "Why are people the most glorious part of God\"s Creation?", level: :detectives, theme: 6, section: 3),
+q = Question.new(text: "Why are people the most glorious part of God's Creation?", level: :detectives, theme: 6, section: 3)
+BibleVerse.create!([{question: q,
                     book: "Psalm",
                     chapter: 86,
-                    verse_number: '9,10',
-                    verse_text: "All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name. For thou art great, and doest  wonderous things: thou art God alone."}])
-BibleVerse.create!([{question: Question.new(text: "Why did God create you?", level: :detectives, theme: 6, section: 4),
+                    verse_number: '9',
+                    verse_text: "All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name."}])
+BibleVerse.create!([{question: q,
                     book: "Psalm",
                     chapter: 86,
-                    verse_number: '11,12',
-                    verse_text: "Teach me thy way O LORD; I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore."}])
+                    verse_number: '10',
+                    verse_text: "For thou art great, and doest  wonderous things: thou art God alone."}])
+q = Question.new(text: "Why did God create you?", level: :detectives, theme: 6, section: 4)
+BibleVerse.create!([{question: q,
+                    book: "Psalm",
+                    chapter: 86,
+                    verse_number: '11',
+                    verse_text: "Teach me thy way O LORD; I will walk in thy truth: unite my heart to fear thy name."}])
+BibleVerse.create!([{question: q,
+                    book: "Psalm",
+                    chapter: 86,
+                    verse_number: '12',
+                    verse_text: "I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore."}])
 BibleVerse.create!([{question: Question.new(text: "What were Adam and Eve like when God first created them?", level: :detectives, theme: 6, section: 5),
                     book: "Psalm",
                     chapter: 16,
@@ -370,11 +394,17 @@ BibleVerse.create!([{question: Question.new(text: 'How does God want us to feel 
                      verse_text: 'O how love I thy law! it is my meditation all the day.'}])
 
 # The Greatness of God
-BibleVerse.create!([{question: Question.new(text: "Does God reveal in His Word that He is greater than us?", level: :defenders, theme: 2, section: 1),
+q = Question.new(text: "Does God reveal in His Word that He is greater than us?", level: :defenders, theme: 2, section: 1)
+BibleVerse.create!([{question: q,
                     book: "Isaiah",
                     chapter: 55,
-                    verse_number: '8,9',
-                    verse_text: "For my thoughts are not your thoughts, neither are your ways my ways, saith the Lord. For as the heavens are higher than the earth, so are my ways higher than your ways."}])
+                    verse_number: '8',
+                    verse_text: "For my thoughts are not your thoughts, neither are your ways my ways, saith the Lord."}])
+BibleVerse.create!([{question: q,
+                    book: "Isaiah",
+                    chapter: 55,
+                    verse_number: '9',
+                    verse_text: "For as the heavens are higher than the earth, so are my ways higher than your ways."}])
 BibleVerse.create!([{question: Question.new(text: 'What is our great God like?', level: :defenders, theme: 2, section: 2),
                      book: 'Job',
                      chapter: 40,
@@ -436,11 +466,17 @@ BibleVerse.create!([{question: Question.new(text: 'Does God ever lie?', level: :
                      chapter: 1,
                      verse_number: 2,
                      verse_text: 'In hope of eternal life, which God, that cannot lie, promised before the world began.'}])
-BibleVerse.create!([{question: Question.new(text: 'Does God give to everyone good things they do not deserve?', level: :defenders, theme: 3, section: 6),
+q = Question.new(text: 'Does God give to everyone good things they do not deserve?', level: :defenders, theme: 3, section: 6)
+BibleVerse.create!([{question: q,
                      book: 'Psalm',
                      chapter: 145,
-                     verse_number: '8,9',
-                     verse_text: "The LORD is gracious, and full of compassion; slow to anger, and of great mercy. The Lord is good to all: ans his tender mercies are over all his works."}])
+                     verse_number: '8',
+                     verse_text: "The LORD is gracious, and full of compassion; slow to anger, and of great mercy."}])
+BibleVerse.create!([{question: q,
+                    book: 'Psalm',
+                    chapter: 145,
+                    verse_number: '9',
+                    verse_text: "The Lord is good to all: ans his tender mercies are over all his works."}])
 BibleVerse.create!([{question: Question.new(text: "Would God rather punish people or forgive them?", level: :defenders, theme: 3, section: 7),
                      book: "Lamentations",
                      chapter: 3,
@@ -456,17 +492,29 @@ BibleVerse.create!([{question: Question.new(text: "Does God look the other way w
                      chapter: 1,
                      verse_number: 18,
                      verse_text: "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness."}])
-BibleVerse.create!([{question: Question.new(text: 'How can you please God?', level: :defenders, theme: 3, section: 10),
+q = Question.new(text: 'How can you please God?', level: :defenders, theme: 3, section: 10)
+BibleVerse.create!([{question: q,
                      book: '2 Corinthians',
                      chapter: 5,
-                     verse_number: "14,15",
-                     verse_text: 'For the love of Christ constraineth us; because we thus judge, that if one died for all, then were all dead: And that he died for all, that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again.'}])
+                     verse_number: "14",
+                     verse_text: 'For the love of Christ constraineth us; because we thus judge, that if one died for all, then were all dead:'}])
+BibleVerse.create!([{question: q,
+                    book: '2 Corinthians',
+                    chapter: 5,
+                    verse_number: "15",
+                    verse_text: 'And that he died for all, that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again.'}])
 # The Trinity
-BibleVerse.create!([{question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :defenders, theme: 4, section: 1),
+q = question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :defenders, theme: 4, section: 1)
+BibleVerse.create!([{question: q,
                     book: "Jeremiah",
                     chapter: 10,
-                    verse_number: "6,7",
-                    verse_text: "Forasmuch as there is none like unto thee, O LORD; thou art great, and thy name is great in might. Who would not fear thee, O King of nations? for to thee doth it appertain: forasmuch as among all the wise men of the nations, and in all their kingdoms, there is none like unto thee."}])
+                    verse_number: "6",
+                    verse_text: "Forasmuch as there is none like unto thee, O LORD; thou art great, and thy name is great in might."}])
+BibleVerse.create!([{question: q,
+                    book: "Jeremiah",
+                    chapter: 10,
+                    verse_number: "7",
+                    verse_text: "Who would not fear thee, O King of nations? for to thee doth it appertain: forasmuch as among all the wise men of the nations, and in all their kingdoms, there is none like unto thee."}])
 BibleVerse.create!([{question: Question.new(text: "Why must we believe that God is one God in three Persons, each of Whom is fully God?", level: :defenders, theme: 4, section: 3),
                     book: "Psalm",
                     chapter: 33,
@@ -562,16 +610,28 @@ BibleVerse.create!([{question: Question.new(text: 'What does the phrase "made in
                      chapter: 1,
                      verse_number: 27,
                      verse_text: 'So God created man in his own image, in the image of God created he him; male and female created he them.'}])
-BibleVerse.create!([{question: Question.new(text: "Why are people the most glorious part of God\"s Creation?", level: :defenders, theme: 6, section: 3),
+q = Question.new(text: "Why are people the most glorious part of God\"s Creation?", level: :defenders, theme: 6, section: 3)
+BibleVerse.create!([{question: q,
                      book: "Psalm",
                      chapter: 86,
-                     verse_number: "9,10",
-                     verse_text: "All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name. For thou art great, and doest wonderous things: thou art God alone."}])
-BibleVerse.create!([{question: Question.new(text: 'Why did God create you?', level: :defenders, theme: 6, section: 4),
+                     verse_number: "9",
+                     verse_text: "All nations whom thou hast made shall come and worship before thee, O Lord; and shall glorify thy name."}])
+BibleVerse.create!([{question: q,
+                    book: "Psalm",
+                    chapter: 86,
+                    verse_number: "10",
+                    verse_text: "For thou art great, and doest wonderous things: thou art God alone."}])
+q = Question.new(text: 'Why did God create you?', level: :defenders, theme: 6, section: 4)
+BibleVerse.create!([{question: q,
                      book: 'Psalm',
                      chapter: 86,
-                     verse_number: "11,12",
-                     verse_text: 'Teach me thy way, O Lord; I will walk in thy truth: unite my heart to fear thy name. I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore.'}])
+                     verse_number: "11",
+                     verse_text: 'Teach me thy way, O Lord; I will walk in thy truth: unite my heart to fear thy name.'}])
+BibleVerse.create!([{question: q,
+                    book: 'Psalm',
+                    chapter: 86,
+                    verse_number: "12",
+                    verse_text: 'I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore.'}])
 BibleVerse.create!([{question: Question.new(text: 'What were Adam and Eve like when God created them?', level: :defenders, theme: 6, section: 5),
                      book: 'Psalm',
                      chapter: 16,
