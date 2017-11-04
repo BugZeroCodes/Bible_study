@@ -504,7 +504,7 @@ BibleVerse.create!([{question: q,
                     verse_number: "15",
                     verse_text: 'And that he died for all, that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again.'}])
 # The Trinity
-q = question: Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :defenders, theme: 4, section: 1)
+q = Question.new(text: "What does the word \"Trinity\" mean in relation to God?", level: :defenders, theme: 4, section: 1)
 BibleVerse.create!([{question: q,
                     book: "Jeremiah",
                     chapter: 10,
