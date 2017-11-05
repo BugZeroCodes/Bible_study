@@ -410,6 +410,11 @@ BibleVerse.create!([{question: Question.new(text: 'What is our great God like?',
                      chapter: 40,
                      verse_number: 9,
                      verse_text: 'Hast thou an arm like God? or canst thou thunder with a voice like him?'}])
+BibleVerse.create!([{question: Question.new(text: 'Did God ever have a beginning, or will he ever have an end?', level: :defenders, theme: 2, section: 3),
+                     book: 'Revelation',
+                     chapter: 1,
+                     verse_number: 8,
+                     verse_text: 'I am Alpha and Omega, the beginning and the end, saith the Lord, which is, and which was, and which to come, the Almighty.'}])
 BibleVerse.create!([{question: Question.new(text: 'Does the Lord ever give up, get tired, or change in any way?', level: :defenders, theme: 2, section: 4),
                      book: 'Malachi',
                      chapter: 3,
@@ -430,6 +435,11 @@ BibleVerse.create!([{question: Question.new(text: "What does God know?", level: 
                      chapter: 3,
                      verse_number: "20b",
                      verse_text: "God is greater than our heart, and knoweth all things."}])
+BibleVerse.create!([{question: Question.new(text: 'Where is God?', level: :defenders, theme: 2, section: 8),
+                     book: 'Jeremiah',
+                     chapter: 23,
+                     verse_number: 24,
+                     verse_text: 'Can any hide himself in secret places that I shall not see him? saith the LORD. Do not I fill heaven ane earth? saith the LORD.'}])
 BibleVerse.create!([{question: Question.new(text: 'Can anyone match God\'s greatness?', level: :defenders, theme: 2, section: 9),
                      book: '1 Timothy',
                      chapter: 1,
@@ -515,6 +525,11 @@ BibleVerse.create!([{question: q,
                     chapter: 10,
                     verse_number: "7",
                     verse_text: "Who would not fear thee, O King of nations? for to thee doth it appertain: forasmuch as among all the wise men of the nations, and in all their kingdoms, there is none like unto thee."}])
+BibleVerse.create!([{question: Question.new(text: 'Has God always been a Trinity?', level: :defenders, theme: 4, section: 2),
+                     book: 'John',
+                     chapter: 17,
+                     verse_number: 24,
+                     verse_text: 'Father, I[Jesus] will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.'}])
 BibleVerse.create!([{question: Question.new(text: "Why must we believe that God is one God in three Persons, each of Whom is fully God?", level: :defenders, theme: 4, section: 3),
                     book: "Psalm",
                     chapter: 33,
@@ -580,6 +595,17 @@ BibleVerse.create!([{question: Question.new(text: 'How long did it take God to c
                      chapter: 20,
                      verse_number: 11,
                      verse_text: 'For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.'}])
+q = Question.new(text: 'How did God create the world?', level: :defenders, theme: 5, section: 6)
+BibleVerse.create!([{question: q,
+                     book: 'Psalm',
+                     chapter: 36,
+                     verse_number: 6,
+                     verse_text: 'By the word of the LORD were the heavens made; and all the host of them by the breath of his mouth. . . .'}])
+BibleVerse.create!([{question: q,
+                    book: 'Psalm',
+                    chapter: 36,
+                    verse_number: 9,
+                    verse_text: 'For he spake, and it was done; he commanded, and it stood fast.'}])
 BibleVerse.create!([{question: Question.new(text: 'How can we know for sure that God made everything?', level: :defenders, theme: 5, section: 7),
                      book: 'Hebrews',
                      chapter: 11,
